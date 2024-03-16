@@ -1,0 +1,2003 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="extra-images/logo_32X26.png" rel="icon">
+    <title>Committees</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Full Calender CSS -->
+    <link href="css/fullcalendar.css" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <!-- Pretty Photo CSS -->
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <!-- Bx-Slider StyleSheet CSS -->
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+    <!-- Font Awesome StyleSheet CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="svg/style.css" rel="stylesheet">
+    <!-- Widget CSS -->
+    <link href="css/widget.css" rel="stylesheet">
+    <!-- Typography CSS -->
+    <link href="css/typography.css" rel="stylesheet">
+    <!-- Shortcodes CSS -->
+    <link href="css/shortcodes.css" rel="stylesheet">
+    <!-- Custom Main StyleSheet CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Color CSS -->
+    <link href="css/color.css" rel="stylesheet">
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- SELECT MENU -->
+    <link href="css/selectric.css" rel="stylesheet">
+    <!-- SIDE MENU -->
+    <link rel="stylesheet" href="css/jquery.sidr.dark.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-86SF08X1GB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-86SF08X1GB');
+</script>
+</head>
+
+<body>
+    <!--KF KODE WRAPPER WRAP START-->
+    <div class="kode_wrapper">
+        <!-- register Modal -->
+        <div class="modal fade" id="reg-box" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-content">
+                    <!--SIGNIN AS USER START-->
+                    <div class="user-box">
+                        <h2>Sign up as a User</h2>
+                        <!--FORM FIELD START-->
+                        <div class="form">
+                            <div class="input-container">
+                                <input type="text" placeholder="Name" />
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <div class="input-container">
+                                <input type="text" placeholder="E-mail" />
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+                            <div class="input-container">
+                                <input type="password" placeholder="Password" />
+                                <i class="fa fa-unlock"></i>
+                            </div>
+                            <div class="input-container">
+                                <label>
+                                    <span class="radio">
+                                        <input type="checkbox" name="foo" value="1" checked />
+                                        <span class="radio-value" aria-hidden="true"></span>
+                                    </span>
+                                    <span>Remember me</span>
+                                </label>
+                            </div>
+                            <div class="input-container">
+                                <button class="btn-style">Sign Up</button>
+                            </div>
+                        </div>
+                        <!--FORM FIELD END-->
+                        <!--OPTION START-->
+                        <div class="option">
+                            <h5>Or Using</h5>
+                        </div>
+                        <!--OPTION END-->
+                        <!--OPTION START-->
+                        <div class="social-login">
+                            <a href="#" class="google"><i class="fa fa-google-plus"></i>Google Account</a>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i>Facebook Account</a>
+                        </div>
+                        <!--OPTION END-->
+                    </div>
+                    <!--SIGNIN AS USER END-->
+                    <div class="user-box-footer">
+                        Already have an account? <a href="#">Sign In</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <!-- register Modal end-->
+
+        <!-- SIGNIN MODEL START -->
+        <div class="modal fade" id="signin-box" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-content">
+                    <div class="user-box">
+                        <h2>Sign In</h2>
+                        <!--FORM FIELD START-->
+                        <div class="form">
+                            <div class="input-container">
+                                <input type="text" placeholder="E-mail" />
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+                            <div class="input-container">
+                                <input type="password" placeholder="Password" />
+                                <i class="fa fa-unlock"></i>
+                            </div>
+                            <div class="input-container">
+                                <label>
+                                    <span class="radio">
+                                        <input type="checkbox" name="foo" value="1" checked />
+                                        <span class="radio-value" aria-hidden="true"></span>
+                                    </span>
+                                    <span>Remember me</span>
+                                </label>
+                            </div>
+                            <div class="input-container">
+                                <button class="btn-style">Sign In</button>
+                            </div>
+                        </div>
+                        <!--FORM FIELD END-->
+                        <!--OPTION START-->
+                        <div class="option">
+                            <h5>Or Using</h5>
+                        </div>
+                        <!--OPTION END-->
+                        <!--OPTION START-->
+                        <div class="social-login">
+                            <a href="#" class="google"><i class="fa fa-google-plus"></i>Google Account</a>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i>Facebook Account</a>
+                        </div>
+                        <!--OPTION END-->
+                    </div>
+                    <div class="user-box-footer">
+                        <p>
+                            Don't have an account?<br /><a href="#">Sign up as a User</a>
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <!-- SIGNIN MODEL END -->
+
+        <!-- <div id="sidr">
+            <div class="logo_wrap">
+                <a href="#"><img src="extra-images/logo.png" alt=""></a>
+            </div>
+            <div class="clearfix clear"></div> -->
+        <!-- Your content -->
+        <!-- <div class="kf-sidebar"> -->
+        <!--KF_SIDEBAR_SEARCH_WRAP START-->
+        <!-- <div class="widget widget-search">
+                    <h2>Search Course</h2>
+                    <form>
+                        <input type="search" placeholder="Keyword...">
+                    </form>
+                </div> -->
+        <!--KF_SIDEBAR_SEARCH_WRAP END-->
+
+        <!--KF_SIDEBAR_ARCHIVE_WRAP START-->
+        <!-- <div class="widget widget-archive ">
+                    <h2>Archives</h2>
+                    <ul class="sidebar_archive_des">
+                        <li>
+                            <a href=""><i class="fa fa-angle-right"></i>January 2016</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-angle-right"></i>February 2016</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-angle-right"></i>March 2016</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-angle-right"></i>April 2016</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-angle-right"></i>May 2016</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-angle-right"></i>June 2016</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-angle-right"></i>August 2016</a>
+                        </li>
+                    </ul>
+                </div> -->
+        <!--KF_SIDEBAR_ARCHIVE_WRAP END-->
+
+        <!-- <p class="copy-right-sidr">Design and Developed by KodeForest @ All Rights Reserved by KodeForest</p>
+            </div>
+        </div> -->
+        <header id="header_2">
+			<!--kode top bar start-->
+			<div class="top_bar_2">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5">
+							<div class="pull-left">
+								<em class="contct_2"><i class="fa fa-phone"></i> <a href="tel:08444030010"
+										style="color: #fff;">Call Us on
+										08444030010</a></em>
+							</div>
+							<div class="pull-left">
+								<em class="contct_2"><i class="fa fa-envelope"></i><a href="mailto:admission@setgoi.com"
+										style="color: #fff;">admission@setgoi.com</a> </em>
+							</div>
+						</div>
+						<div class="col-md-7">
+							<ul class="login_wrap">
+								<!-- <li>
+									<a href="#" data-toggle="modal" data-target="#reg-box"><i
+											class="fa fa-user"></i>Register</a>
+								</li>
+								<li>
+									<a href="#" data-toggle="modal" data-target="#signin-box"><i
+											class="fa fa-sign-in"></i>Sign In</a>
+								</li> -->
+							</ul>
+							<ul class="top_nav">
+								<li><a href="career.html">Apply Now</a></li>
+								<li><a href="events.html">Event</a></li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="contactus -2.html">contact us</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--kode top bar end-->
+
+			<!--kode navigation start-->
+      <div class="kode_navigation">
+				<!-- <div id="mobile-header">
+					<a id="responsive-menu-button" href="#sidr-main"><i class="fa fa-bars"></i></a>
+				</div> -->
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="logo_wrap">
+								<a href="index.html"><img src="extra-images/SVSD_Logo.svg"
+										alt=""  style="max-width: 37%; text-align:right;"/></a>	
+							</div>
+							
+						</div>
+<div class="col-md-6" style="text-align:right;">
+	<div class="logo_wrap">
+  <span><img src="extra-images/istec_logo.png" style="max-width:21%; text-align:left;margin-top: -21px;" alt="">
+    <h6 style=" display: inline-block; text-align:left;margin-top:20px;font-size: 11px;">Indian Society For Technical Education <br>
+     <a href="files/ISTE INSTITUTIONAL MEMBER.pdf" target="_blank">Institutional Membership ID:2937</a> <br><a href="files/ISTE STUDENTS CHAPTER.pdf" target="_blank">ISTE Student Chapter ID:WB15</a></h6>
+ 
+  </span>
+	
+	</div>
+</div>
+						
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div id="mySidepanel" class="sidepanel">
+								<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+								<ul>
+								  <li><a href="index.html">home</a></li>
+								   <li>
+					<a href="#" class="collapsible">About Us <i class="fa fa-caret-down"></i></a>
+					<div class="content">
+					<ul>
+					<li><a href="about.html">About SVSD</a></li>
+					<li><a href="leadership.html">Leadership</a></li>
+					<li>
+					<a href="governing_body.html">Governing Body</a>
+					</li>
+					<li>
+					<a href="affiliation.html"
+					  >Affiliation & Accreditation</a
+					>
+					</li>
+					<li><a href="committee.html">Committees </a></li>
+					<li><a href="#">Mandatory Disclosure </a></li>
+					<!-- <li><a href="#">Rules and Regulations </a></li> -->
+					</ul>
+					</div>
+								
+								  </li>
+
+                  <li>
+                    <a href="#" class="collapsible"
+                      >People
+                      <i class="fa fa-caret-down"></i>
+                    </a>
+                    <div class="content">
+                      <ul>
+                      <li><a href="#">Faculty</a></li>
+                      <li>
+                        <a href="#" class="collapsible"
+                          >Student
+                          <i class="fa fa-caret-down"></i>
+                        </a>
+                        <div class="content">
+                          <ul>
+                            <li><a href="studentcorner.html">Student Corner </a></li>
+                          <li><a href="#">Student of the year </a></li>
+                          <li><a href="#">Rank holders </a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- <li>
+                        <a href="#" class="collapsible"
+                          >Alumni
+                          <i class="fa fa-caret-down"></i>
+                        </a>
+                        <div class="content">
+                          <ul>
+                          <li><a href="#">Overview</a></li>
+                          <li><a href="#">Alumni Notice </a></li>
+                          <li><a href="#">Events </a></li>
+                          </ul>
+                        </div>
+                       
+                        </li> -->
+                        <li><a href="#">Alumni</a></li>
+                      </ul>
+                    </div>
+                   
+                  </li>
+                  
+								  <li>
+									<a href="#" class="collapsible"
+									  >Academics
+									  <i class="fa fa-caret-down"></i>
+									</a>
+									<div class="content">
+									  <ul>
+										<li><a href="civil.html">Civil Engineering</a></li>
+										<li><a href="electrical.html">Electrical Engineering</a></li>
+									
+										<li>
+										  <a href="mechanical.html"
+											>Mechanical Engineering</a
+										  >
+										</li>
+										<!-- <li><a href="faculty.html">Meet Our Faculty</a></li> -->
+										<li><a href="academic calander.html">Academic Calendar</a></li>
+									  </ul>
+									</div>
+								 
+								  </li>
+                  <li>
+                    <a href="#" class="collapsible"
+                      >Admissions
+                      <i class="fa fa-caret-down"></i>
+                    </a>
+                    <div class="content">
+                      <ul>
+                      <li>
+                        <a href="Admission Policy.html" class="collapsible"
+                          >Admission Policy and Eligibility
+                          <!-- <i class="fa fa-caret-down"></i> -->
+                        </a>
+                        <!-- <div class="content">
+                          <ul>
+                          <li><a href="#">Admission process</a></li>
+                          <li><a href="#">Required documents for admission </a></li>
+                        
+                          </ul>
+                        </div> -->
+                       
+                        </li>
+                        <li><a href="files/SVSD Prospectus 2023_Final.pdf" target="_blank">Prospectus </a></li>
+                      <li>
+                        <a href="Courses and Eligibilities.html"
+                        >Courses</a
+                        >
+                      </li>
+                      <li><a href="Fees Structure.html">Fees Structure </a></li>
+                      <li><a href="Scholarships.html">Scholarships </a></li>
+                      <li><a href="FAQs.html">FAQs </a></li>
+                      </ul>
+                    </div>
+                     
+                    </li>
+								  <li>
+									<a href="#" class="collapsible"
+									  >Placements & Internship <i class="fa fa-caret-down"></i
+									></a>
+									<div class="content">
+									  <ul>
+										<li><a href="campus hiring.html">Campus Hiring</a></li>
+										<li><a href="internship.html">Internship</a></li>
+										<li><a href="capacity building.html">Capacity Building</a></li>
+									  </ul>
+									</div>
+								  
+								  </li>
+                  <!-- <li><a href="#" class="collapsible">research & publication <i class="fa fa-caret-down"></i></a>
+                    <div class="content">
+                    <ul>
+                      <li><a href="research_about.html">About</a></li>
+                      <li><a href="editorial_members.html">Editorial members</a></li>
+                      <li><a href="archive.html">Archive</a></li>
+                      <li><a href="research_contact.html">Contact Us</a></li>
+                    </ul>
+                  </div>
+									</li> -->
+                  <li><a href="research_publications.html">research & publication</a></li>
+								  <li>
+									<a href="#" class="collapsible"
+									  >Life@SVSD
+									  <i class="fa fa-caret-down"></i>
+									</a>
+									<div class="content">
+									  <ul>
+										<!-- <li><a href="404.html">Achievements & Stories </a></li> -->
+										<li><a href="events.html">Events </a></li>
+										<li><a href="campus facilities.html">Campus Facilities </a></li>
+										
+										<li><a href="files/codeofconduct.pdf" target="_blank">Code of Conduct </a></li>
+									  </ul>
+									</div>
+								 
+								  </li>
+								  <!-- <li>
+									<a href="#" class="collapsible"
+									  >Student Performance
+									  <i class="fa fa-caret-down"></i>
+									</a>
+									<div class="content">
+									  <ul>
+										<li><a href="#">Student of the year </a></li>
+										<li><a href="#">Overall Results </a></li>
+										<li><a href="#">Rank holders </a></li>
+									  </ul>
+									</div>
+							   
+								  </li> -->
+								  <!-- <li>
+									<a href="#" class="collapsible"
+									  >Alumni
+									  <i class="fa fa-caret-down"></i>
+									</a>
+									<div class="content">
+									  <ul>
+										<li><a href="#">Overview</a></li>
+										<li><a href="#">Alumni Notice </a></li>
+										<li><a href="#">Events </a></li>
+									  </ul>
+									</div>
+								 
+								  </li> -->
+								</ul>
+							  </div>
+							  
+							  <button class="openbtn" onclick="openNav()">☰</button>  
+						   
+							  
+							  <script>
+							  function openNav() {
+								document.getElementById("mySidepanel").style.width = "250px";
+							  }
+							  
+							  function closeNav() {
+								document.getElementById("mySidepanel").style.width = "0";
+							  }
+							  </script>
+							<!--kode nav_2 start-->
+							<div class="nav_2" id="navigation">
+								<ul>
+					
+								</ul>
+							</div>
+							<!--kode nav_2 end-->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--kode navigation end-->
+
+			<!--kode blue navigation start-->
+			<div class="kode_navigation_3">
+				<!-- <div id="mobile-header">
+					<a id="responsive-menu-button-sub" href="#sidr-main"><i class="fa fa-bars"></i></a>
+				</div> -->
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<!--kode nav_2 start-->
+							<div class="nav_3" id="navigation-sub">
+								<ul>
+									<li><a href="index.html">home</a></li>
+
+									<li>
+										<a href="#">About Us
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<ul>
+											<li><a href="about.html">About SVSD</a></li>
+											<li><a href="leadership.html">Leadership</a></li>
+											<li><a href="governing_body.html">Governing Body</a></li>
+											<li><a href="affiliation.html">Affiliation & Accreditation</a></li>
+											<li><a href="committee.html">Committees </a></li>
+											<li><a href="#">Mandatory Disclosure </a></li>
+											<!-- <li><a href="#">Rules and Regulations </a></li> -->
+
+										</ul>
+									</li>
+                  <li>
+										<a href="#">People
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<ul>
+											<li><a href="faculty.html"> Faculty</a></li>
+											<li><a href="#">Student
+												<i class="fa fa-caret-down"></i>
+											</a>
+											<ul>
+                        <li><a href="studentcorner.html">Student Corner </a></li>
+												<li><a href="#">Student of the year </a></li>
+												<!-- <li><a href="#">Overall Results </a></li> -->
+												<li><a href="#">Rank holders </a></li>
+											</ul></li>
+                      <li><a href="#">Alumni</a></li>
+											<!-- <li><a href="#">Alumni
+												<i class="fa fa-caret-down"></i>
+											</a>
+											<ul>
+												<li><a href="#">Overview</a></li>
+												<li><a href="#">Alumni Notice </a></li>
+												<li><a href="#">Events </a></li>
+											</ul></li> -->
+										</ul>
+									</li>
+
+
+									<li>
+										<a href="#">Academics
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<ul>
+											<li><a href="civil.html">Civil Engineering</a></li>
+											<li><a href="electrical.html">Electrical Engineering</a></li>
+											<li><a href="mechanical.html">Mechanical Engineering</a></li>
+											<!-- <li><a href="faculty.html">Meet Our Faculty</a></li> -->
+											<li><a href="academic calander.html">Academic Calendar</a></li>
+										</ul>
+									</li>
+
+									<li>
+										<a href="#">Admissions
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<ul>
+
+											<li><a href="Admission Policy.html">Admission Policy and Eligibility</a></li>
+											<li><a href="files/SVSD Prospectus 2023_Final.pdf" target="_blank">Prospectus </a></li>
+											<li><a href="Courses and Eligibilities.html">Courses</a></li>
+											<li><a href="Fees Structure.html">Fees Structure </a></li>
+											<li><a href="Scholarships.html">Scholarships </a></li>
+											<li><a href="FAQs.html">FAQs </a></li>
+										</ul>
+									</li>
+
+									<li>
+										<a href="#">Placements & Internship<i class="fa fa-caret-down"></i></a>
+										<ul>
+											<li><a href="campus hiring.html">Campus Hiring</a></li>
+											<li><a href="internship.html">Internship</a></li>
+											<li><a href="capacity building.html">Capacity Building</a></li>
+										</ul>
+									</li>
+
+									<!-- <li><a href="#">research & publication <i class="fa fa-caret-down"></i></a>
+                    <ul>
+                      <li><a href="research_about.html">About</a></li>
+                      <li><a href="editorial_members.html">Editorial members</a></li>
+                      <li><a href="archive.html">Archive</a></li>
+                      <li><a href="research_contact.html">Contact Us</a></li>
+                    </ul>
+									</li> -->
+                  <li><a href="research_publications.html">research & publication</a></li>
+									<li>
+										<a href="#">Life@SVSD
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<ul>
+											<!-- <li><a href="404.html">Achievements & Stories </a></li> -->
+											<li><a href="events.html">Events </a></li>
+											<li><a href="campus facilities.html">Campus Facilities </a></li>
+											
+											<li><a href="files/codeofconduct.pdf" target="_blank">Code of Conduct </a></li>
+										</ul>
+									</li>
+
+									<!-- <li>
+										<a href="#">Student Performance
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<ul>
+											<li><a href="#">Student of the year </a></li>
+											<li><a href="#">Overall Results </a></li>
+											<li><a href="#">Rank holders </a></li>
+										</ul>
+									</li>
+
+									<li>
+										<a href="#">Alumni
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<ul>
+											<li><a href="#">Overview</a></li>
+											<li><a href="#">Alumni Notice </a></li>
+											<li><a href="#">Events </a></li>
+										</ul>
+									</li> -->
+								</ul>
+							</div>
+							<!--kode nav_2 end-->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--kode blue navigation end-->
+		</header>
+
+        <!--Banner Wrap Start-->
+        <div class="kf_inr_banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!--KF INR BANNER DES Wrap Start-->
+                        <div class="kf_inr_ban_des">
+                            <div class="inr_banner_heading">
+                                <h3>Committees</h3>
+                            </div>
+
+                            <div class="kf_inr_breadcrumb">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li>About Us</li>
+                                    <li><a href="committee.html">Committees </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--KF INR BANNER DES Wrap End-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+        <!--Banner Wrap End-->
+
+        <!--Content Wrap Start-->
+        <div class="kf_content_wrap">
+
+            <!--ABOUT UNIVERSITY START-->
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="abt_univ_wrap">
+                                <!--EVENT CONVOCATION  Wrap START-->
+                                <div class="kf_convocation_wrap" style="overflow: auto;">
+                                    <h4><span>COMMITTEES</span></h4>
+                                    <p> "Committees in institutions are vital for informed decision-making, expertise utilization, accountability, transparency and efficient problem-solving."" 
+                                    </p>
+                                    <br><br>
+                                    <h5>Institute Industry Cell</h5>
+                                    <ul class="convocation_timing">
+                                        <!-- <li><i class="fa fa-calendar"></i>14 Nov, 2015</li>
+                                        <li><i class="fa fa-clock-o"></i>10:00 am - 04:00 pm</li> -->
+                                    </ul>
+
+
+                                    <table class="table table-bordered">
+                                        <thead>
+                                                <tr>
+                                                    <th scope="col">Sr. No.</th>
+                                                    <th scope="col">Name of Member</th>
+                                                    <th scope="col">Member Type (Teaching/Nonteaching/Student/External Expert)</th>
+                                                    <th scope="col">Key	Role/Position assigned in IIC</th>
+                                                    <!-- <th scope="col">CONTACT NO.</th>
+                                                    <th scope="col">EMAIL</th> -->
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mr. Suman Pramanik</td>
+                                            <td>Teaching</td>
+                                            <td>Head Of the Institution</td>
+                                            <!-- <td> <a href="tel:7602856909">7602856909</a></td>
+                                            <td><a href="mailto:principalsvsd@setgoi.com">principalsvsd@setgoi.com</a></td> -->
+                                        </tr>
+                                        <tr>
+
+                                            <td>2</td>
+                                            <td>Ms. Sneha Adhikari</td>
+                                            <td>Teaching</td>
+                                            <td>President</td>
+                                            <!-- <td> <a href="tel:9932878276">9932878276</a></td>
+                                            <td><a href="mailto:Saikat.ganguli@gmail.com">Saikat.ganguli@gmail.com</a></td> -->
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Mr. Soumya Kanti Dutta</td>
+                                            <td>Teaching</td>
+                                            <td>Vice President; IPR Activity Co-Ordinator</td>
+                                            <!-- <td> <a href="tel:9431124359">9431124359</a></td>
+                                            <td><a href="mailto:exports@indpac.in">exports@indpac.in</a></td> -->
+                                        </tr>
+                                        <tr>
+
+                                            <td>4</td>
+                                            <td>Mr. Suprotiv Chatterjee</td>
+                                            <td>Teaching</td>
+                                            <td>Convener</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>5</td>
+                                            <td>Mr. Krishanu Banerjee</td>
+                                            <td>Teaching</td>
+                                            <td>Start Up Activity Coordinator</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>6</td>
+                                            <td>Mr. Sujan Banerjee</td>
+                                            <td>Teaching</td>
+                                            <td>Social Media Coordinator</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>7</td>
+                                            <td>Mr. Biswajit Gorai</td>
+                                            <td>Teaching</td>
+                                            <td>Innovation Activity Coordinator</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>8</td>
+                                            <td>Dr. Ranu Banerjee</td>
+                                            <td>Teaching</td>
+                                            <td>Internship Activity Coordinator</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>9</td>
+                                            <td>Mr. Rakhal Jana</td>
+                                            <td>Teaching</td>
+                                            <td>Member</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>10</td>
+                                            <td>Mr. Arup Kumar Bazari</td>
+                                            <td>Teaching</td>
+                                            <td>Member</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>11</td>
+                                            <td>Mr. Samiul Hasan</td>
+                                            <td>Teaching</td>
+                                            <td>Member</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>12</td>
+                                            <td>Mr. Laltu Mahato</td>
+                                            <td>Teaching</td>
+                                            <td>Member</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>13</td>
+                                            <td>Mr. Krishna Gorai</td>
+                                            <td>Teaching</td>
+                                            <td>Member</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>14</td>
+                                            <td>Arpan Dey</td>
+                                            <td>Student</td>
+                                            <td>IPR Coordinator</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>15</td>
+                                            <td>Rahul Mondal</td>
+                                            <td>Student</td>
+                                            <td>IPR Coordinator</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>16</td>
+                                            <td>Apurba Shankar Das</td>
+                                            <td>Student</td>
+                                            <td>Innovation Coordinator</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>17</td>
+                                            <td>Raghavendra Maharshi</td>
+                                            <td>Student</td>
+                                            <td>Innovation Coordinator</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>18</td>
+                                            <td>Gobinda Chongder</td>
+                                            <td>Student</td>
+                                            <td>Innovation Coordinator</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>19</td>
+                                            <td>Sandip Mondal</td>
+                                            <td>Student</td>
+                                            <td>Social Media Coordinator</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>20</td>
+                                            <td>Souvik Maji</td>
+                                            <td>Student</td>
+                                            <td>Social Media Coordinator</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>21</td>
+                                            <td>Bubai Chandra Mondal</td>
+                                            <td>Student</td>
+                                            <td>Social Media Coordinator</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>22</td>
+                                            <td>Rohit Bhandari</td>
+                                            <td>Student</td>
+                                            <td>Start Up Coordinator</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>23</td>
+                                            <td>Somwrick Pramanik</td>
+                                            <td>Student</td>
+                                            <td>Start Up Coordinator</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>24</td>
+                                            <td>Susanta Mondal</td>
+                                            <td>Student</td>
+                                            <td>Member</td>
+                                           
+                                        </tr>
+                                        <tr>
+
+                                            <td>25</td>
+                                            <td>Sk Aryen</td>
+                                            <td>Student</td>
+                                            <td>Member</td>
+                                           
+                                        </tr>
+
+                                        </tbody>
+                                    </table>
+
+
+                                </div>
+
+
+                                <!-- Internal Complaints Committee -->
+                                <div class="kf_convocation_wrap" style="overflow: auto;">
+                                    <!-- <h4><span>INSTITUTE INDUSTRY CELL</span></h4> -->
+                                    <h5>Internal Complaints Committee</h5>
+                                    <ul class="convocation_timing"> </ul>
+
+
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">SL. NO.</th>
+                                                <th scope="col">NAME OF MEMBERS</th>
+                                                <th scope="col">DESIGNATION</th>
+                                                <th scope="col">CONTACT NO.</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>DR. RANU BANNERJEE</td>
+                                                <td>PRESIDING OFFICER</td>
+                                                <td><a href="tel:9932909203">9932909203</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>MS. SNEHA ADHIKARI</td>
+                                                <td>LECTURER (MEMBER)</td>
+                                                <td><a href="tel:8945049337">8945049337</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>MRS. SOPIA SARKAR</td>
+                                                <td>PA TO REGISTRAR (MEMBER)</td>
+                                                <td><a href="tel:6296094409">6296094409</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">4</th>
+                                                <td>MRS. BICHITRA SENGUPTA</td>
+                                                <td>WARDEN GIRL’S HOSTEL (MEMBER)</td>
+                                                <td><a href="tel:8927511818">8927511818</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">5</th>
+                                                <td>MRS. SHANKARI KUNDU</td>
+                                                <td>WARDEN GIRL’S HOSTEL (MEMBER)</td>
+                                                <td><a href="tel:8017646636">8017646636</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">6</th>
+                                                <td>MS. SAYANTANI GHOSH</td>
+                                                <td>STUDENT, DIPLOMA 2ND YEAR (MEMBER)</td>
+                                                <td><a href="tel:9609868991">9609868991</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">7</th>
+                                                <td>MS. RUCHIKA ADAK</td>
+                                                <td>STUDENT, DIPLOMA 2ND YEAR (MEMBER)</td>
+                                                <td><a href="tel:9434466691">9434466691</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">8</th>
+                                                <td>REPRESENTATIVE OF LOCAL POLICE STATION</td>
+                                                <td>SUB INSPECTOR (MEMBER)</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">9</th>
+                                                <td>MR. BIJOY CHAKRABORTY</td>
+                                                <td>SOCIAL WORKER (MEMBER)</td>
+                                                <td><a href="tel:9333927289">9333927289</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">10</th>
+                                                <td>MR. PRANAB ROY</td>
+                                                <td>EDITOR, CHANNEL TV 7 (MEMBER)</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">11</th>
+                                                <td>MR. SWAPAN KUMAR PRAMANIK</td>
+                                                <td>WARDEN BOY’S HOSTEL (MEMBER)</td>
+                                                <td><a href="tel:8373065621">8373065621</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+     <!-- Grievance Redressal Committee -->
+     <div class="row">
+        <div class="col-md-8">
+            <div class="abt_univ_wrap">
+
+                <!--EVENT CONVOCATION  Wrap START-->
+                <div class="kf_convocation_wrap">
+
+                    <h5>Grievance Redressal Committee:</h5>
+                    <ul class="convocation_timing"> </ul>
+
+
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+
+                                <th scope="col">NAME</th>
+
+                                <th scope="col">DESIGNATION</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>MR. SUMAN PRAMANIK</td>
+                                <td>PRINCIPAL SVSD</td>
+                            </tr>
+                            <tr>
+                                <td>DR. SNIGDHADIP GHOSH</td>
+                                <td>REGISTRAR, MEMBER</td>
+                            </tr>
+                            <tr>
+                                <td>MR. SUPROTIV CHATTERJEE</td>
+                                <td>HOD, CE</td>
+                            </tr>
+                            <tr>
+                                <td>MR. SUDIP KR. BID</td>
+                                <td>HOD, EE</td>
+                            </tr>
+                            <tr>
+                                <td>MD. SADDAM ANSARI</td>
+                                <td>HOD, ME</td>
+                            </tr>
+                            <tr>
+                                <td>MR. MAHESWAR GOPE</td>
+                                <td>STUDENT REPRESENTATIVE</td>
+                            </tr>
+                        
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                                <!-- Anti-Ragging Committee will comprise of the following members -->
+                                <div class="kf_convocation_wrap" style="overflow: auto;">
+                                    <!-- <h4><span>INSTITUTE INDUSTRY CELL</span></h4> -->
+                                    <h5>Anti-Ragging Committee</h5>
+                                    <ul class="convocation_timing"> </ul>
+
+
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">SL. NO.</th>
+                                                <th scope="col">NAME OF MEMBERS</th>
+                                                <th scope="col">DESIGNATION</th>
+                                                <th scope="col">CONTACT NO.</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>MR. SUMAN PRAMANIK</td>
+                                                <td>PRINCIPAL</td>
+                                                <td><a href="tel:7602856909">7602856909</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>MR. SNIGDHADIP GHOSH</td>
+                                                <td>REGISTRAR</td>
+                                                <td><a href="tel:7076163544">7076163544</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>MR. INDRANIL MALLICK</td>
+                                                <td>CEO , ADMINISTRATION</td>
+                                                <td><a href="tel:8348486328">8348486328</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">4</th>
+                                                <td>MR. SOUMAY KANTI DUTTA</td>
+                                                <td>TEACHER IN-CHARGE</td>
+                                                <td><a href="tel:9647585323">9647585323</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">5</th>
+                                                <td>MR. SUPROTIV CHATTERJEE</td>
+                                                <td>HOD, CE</td>
+                                                <td><a href="tel:8348627591">8348627591</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">6</th>
+                                                <td>MR. SUDIP KR. BID</td>
+                                                <td>HOD, EE</td>
+                                                <td><a href="tel:7908687746">7908687746</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">7</th>
+                                                <td>MD. SADDAM ANSARI</td>
+                                                <td>HOD, ME</td>
+                                                <td><a href="tel:9800919026">9800919026</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">8</th>
+                                                <td>DR. RANU BANNERJEE</td>
+                                                <td>SR. LECTURER</td>
+                                                <td><a href="tel:9932909203">9932909203</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">9</th>
+                                                <td>MR. PINAKI DUTTA</td>
+                                                <td>SR. LECTURER</td>
+                                                <td><a href="tel:8918150532">8918150532</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">10</th>
+                                                <td>MR. SUMAN BANERJEE</td>
+                                                <td>SR. LECTURER</td>
+                                                <td><a href="tel:9474700083">9474700083</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">11</th>
+                                                <td>MS. SNEHA ADHIKARI</td>
+                                                <td>LECTURER</td>
+                                                <td><a href="tel:8945049337">8945049337</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">12</th>
+                                                <td>MR. SUJAN BANERJEE</td>
+                                                <td>LECTURER</td>
+                                                <td><a href="tel:8670210210">8670210210</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">13</th>
+                                                <td>MR. ANUPAM BASU</td>
+                                                <td>LIAISON OFFICER</td>
+                                                <td><a href="tel:8373065631">8373065631</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">14</th>
+                                                <td>MR. MANAS CHATTERJEE</td>
+                                                <td>MKT -  ADMIN</td>
+                                                <td><a href="tel:9083257815">9083257815</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">15</th>
+                                                <td>MR. ROHAN ROY</td>
+                                                <td>MKT -  ADMIN</td>
+                                                <td><a href="tel:9093503042">9093503042</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">16</th>
+                                                <td>MR. JIBAN KR. JOARDAR</td>
+                                                <td>ACCONTS DEPT.</td>
+                                                <td><a href="tel:9233419788">9233419788</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">17</th>
+                                                <td>MR. PRASANTA MUKHERJEE</td>
+                                                <td>WARDEN- BOYS’ HOSTEL</td>
+                                                <td><a href="tel:9547279732">9547279732</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">18</th>
+                                                <td>MR. SWAPAN KR. PRAMANIK</td>
+                                                <td>WARDEN- BOYS’ HOSTEL</td>
+                                                <td><a href="tel:8373065621">8373065621</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">19</th>
+                                                <td>MS. BICHITRA SENGUPTA</td>
+                                                <td>WARDEN- GIRLS’ HOSTEL</td>
+                                                <td><a href="tel:8798007039">8798007039</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">20</th>
+                                                <td>MS. SANKARI KUNDU</td>
+                                                <td>WARDEN- GIRLS’ HOSTEL</td>
+                                                <td><a href="tel:8017646636">8017646636</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">21</th>
+                                                <td>AUROBINDO BISWAS</td>
+                                                <td>B.D.O KANKSA</td>
+                                                <td><a href="tel:7797659429">7797659429</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">22</th>
+                                                <td>REPRESENTATIVE OF LOCAL POLICE ST.</td>
+                                                <td></td>
+                                                <td><a href="tel:0343-2524244">0343-2524244</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">23</th>
+                                                <td>MR. PRANAB ROY</td>
+                                                <td>EDITOR CHANNEL TV-7</td>
+                                                <td><a href="tel:9434212399">9434212399</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">24</th>
+                                                <td>MR. SANDIP CHATTERJEE</td>
+                                                <td>SECRETARY ABHILASH(NGO)</td>
+                                                <td><a href="tel:8145572221">8145572221</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">25</th>
+                                                <td>MR. BIJOY CHAKRABORTY</td>
+                                                <td>SOCIAL WORKER</td>
+                                                <td><a href="tel:9333927289">9333927289</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">26</th>
+                                                <td>BISHESWAR JANA</td>
+                                                <td>STUDENT</td>
+                                                <td><a href="tel:7029665924">7029665924</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">27</th>
+                                                <td>ANUSREE GHOSH</td>
+                                                <td>STUDENT</td>
+                                                <td><a href="tel:9883980667">9883980667</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">28</th>
+                                                <td>MRITYUNJAI KUMAR MISHRA</td>
+                                                <td>GUARDIAN</td>
+                                                <td><a href="tel:8945029690">8945029690</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+
+                           
+
+
+
+
+
+                                <!-- SC/ST COMMIITTEES -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="abt_univ_wrap">
+
+                                            <!--EVENT CONVOCATION  Wrap START-->
+                                            <div class="kf_convocation_wrap" style="overflow: auto;">
+
+                                                <h5>SC/ST Committee</h5>
+                                                <ul class="convocation_timing"> </ul>
+
+
+                                                <table class="table table-bordered">
+                                                    <thead>
+                                                        <tr>
+
+                                                            <th scope="col">NAME</th>
+                                                            <th scope="col">DESIGNATION</th>
+                                                            <th scope="col">ORGANIZATION</th>
+                                                            <th scope="col">CONTACT NO</th>
+                                                            <th scope="col">EMAIL</th>
+                                                            <th scope="col">CATEGORY</th>
+
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+
+                                                        <tr>
+                                                            <td>Mr. Suman Pramanik</td>
+                                                            <td>Principal</td>
+                                                            <td>SVSD</td>
+                                                            <td><a href="tel:7602856909">7602856909</a></td>
+                                                            <td><a href="mailto:principalsvsd@setgoi.com">principalsvsd@setgoi.com</a></td>
+                                                            <td>OTHER</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td>Dr. Snigdhadip Ghosh</td>
+                                                            <td>Registrar</td>
+                                                            <td>SVSD</td>
+                                                            <td><a href="tel:7076163544">7076163544</a></td>
+                                                            <td><a href="mailto:registrar@setgoi.com">registrar@setgoi.com</a></td>
+                                                            <td>OTHER</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td>Mr.Deep Rajak</td>
+                                                            <td>Student</td>
+                                                            <td>SVSD</td>
+                                                            <td><a href="tel:7908922135">7908922135</a></td>
+                                                            <td><a href="mailto:deeprajak09@gmail.com">deeprajak09@gmail.com</a></td>
+                                                            <td>SC</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Mr. Prokhit Bauri</td>
+                                                            <td>Student</td>
+                                                            <td>SVSD</td>
+                                                            <td><a href="tel:7384544779">7384544779</a></td>
+                                                            <td><a href="mailto:prokhitbauri4244@gmail.com">prokhitbauri4244@gmail.com</a></td>
+                                                            <td>SC</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Mr. Animesh Barman</td>
+                                                            <td>Student</td>
+                                                            <td>SVSD</td>
+                                                            <td><a href="tel:8436624497">8436624497</a></td>
+                                                            <td><a href="mailto:sanakaeducationaltrust@gmail.com">sanakaeducationaltrust@gmail.com</a></td>
+                                                            <td>SC</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Mr. Sagun Murmu</td>
+                                                            <td>Student</td>
+                                                            <td>SVSD</td>
+                                                            <td><a href="tel:7478067916">7478067916</a></td>
+                                                            <td><a href="mailto:sanakaeducationaltrust@gmail.com">sanakaeducationaltrust@gmail.com</a></td>
+                                                            <td>ST</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <!-- Internal Quality Assurance Cel -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="abt_univ_wrap">
+
+                                            <!--EVENT CONVOCATION  Wrap START-->
+                                            <div class="kf_convocation_wrap" style="overflow: auto;">
+
+                                                <h5>Internal Quality Assurance Cell –</h5>
+                                                <ul class="convocation_timing"> </ul>
+
+
+                                                <table class="table table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">SL. NO.</th>
+                                                            <th scope="col">Name Of The Member</th>
+
+                                                            <th scope="col">Designation</th>
+                                                            <th scope="col">Designation In The Committee</th>
+
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>Mr. Suman Pramanik</td>
+                                                            <td>Principal</td>
+                                                            <td>Chairperson</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>Mr. Soumya Kanti Datta</td>
+                                                            <td>Teacher-In-Charge</td>
+                                                            <td>Coordinator</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">3</th>
+                                                            <td>Mrs. Mohua Pobi</td>
+                                                            <td>Secretary, SET </td>
+                                                            <td>Management Nominee</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">4</th>
+                                                            <td>Dr. Snigdhadip Ghosh</td>
+                                                            <td>Registrar</td>
+                                                            <td>Senior Admin Officer</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">5</th>
+                                                            <td>Mr. Shiba Prosad Datta</td>
+                                                            <td>Chairman, BOG,SETGOI</td>
+                                                            <td>External Member</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">6</th>
+                                                            <td>Dr. Saikat Chaterjee</td>
+                                                            <td>Director, SETGOI</td>
+                                                            <td>External Member</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">7</th>
+                                                            <td>Mr. Tusharmoy Bondyopadhyay</td>
+                                                            <td>Advisor (SVSD)</td>
+                                                            <td>Member</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th scope="row">8</th>
+                                                            <td>Mr. Chanchal Kumar Pal</td>
+                                                            <td>Advisor (SVSD)</td>
+                                                            <td>Member</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">9</th>
+                                                            <td>Mr. Sudip Kumar Bid</td>
+                                                            <td>HOD, EE</td>
+                                                            <td>Academic Member</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">10</th>
+                                                            <td>Md. Saddam Ansari</td>
+                                                            <td>HOD, ME</td>
+                                                            <td>Academic Member</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">11</th>
+                                                            <td>Mr. Suprotiv Chatterjee</td>
+                                                            <td>HOD, CE</td>
+                                                            <td>Academic Member</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">12</th>
+                                                            <td>Dr. Ranu Banerjee</td>
+                                                            <td>Sr. Lecturer, Chairman, IAAC</td>
+                                                            <td>Academic Member</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">13</th>
+                                                            <td>Mr. Indranil Mallick</td>
+                                                            <td>CEO, Administration</td>
+                                                            <td>Senior Admin Officer</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">14</th>
+                                                            <td>Mr. Raman Jha</td>
+                                                            <td>CEO, Admission</td>
+                                                            <td>Senior Admin Officer</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">15</th>
+                                                            <td>Mr. Arnab Goswami</td>
+                                                            <td>System Admin</td>
+                                                            <td>Senior Admin Officer</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">16</th>
+                                                            <td>Mr. Baljeet Kumar Singh</td>
+                                                            <td>Librarian, SVSD</td>
+                                                            <td>Senior Admin Officer</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">17</th>
+                                                            <td>Mr. Saikat Ganguly</td>
+                                                            <td>TPO, SVSD</td>
+                                                            <td>Senior Admin Officer</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">18</th>
+                                                            <td>Mr. Swapnadip Kundu </td>
+                                                            <td>Accountant</td>
+                                                            <td>Member</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">19</th>
+                                                            <td>Mr. Aurobinda Biswas</td>
+                                                            <td>BDO, Kanksa</td>
+                                                            <td>Local Society Nominee</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">20</th>
+                                                            <td>Mr. Tuhin Mondal </td>
+                                                            <td>EE, 1st Year Student</td>
+                                                            <td>Stakeholder</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">21</th>
+                                                            <td>Mr. Debmalya Chakraborty</td>
+                                                            <td>Alumni Committee, Vice President</td>
+                                                            <td>Stakeholder</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">22</th>
+                                                            <td>Mr. Siddhartha Mondal</td>
+                                                            <td>Guardian</td>
+                                                            <td>Stakeholder</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">23</th>
+                                                            <td>Mr. Sanjay Sahu</td>
+                                                            <td>HR,M/SRAIC Integrated Sponge And Power Pvt. Ltd</td>
+                                                            <td>Industry Expert</td>
+                                                        </tr>
+                                                      
+                                                    </tbody>
+                                                </table>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+<!-- IIC COMMITIE -->
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="abt_univ_wrap">
+
+                                            <!--EVENT CONVOCATION  Wrap START-->
+                                            <div class="kf_convocation_wrap" style="overflow: auto;">
+
+                                                <h5>Institution’s Innovation Council –</h5>
+                                                <ul class="convocation_timing"> </ul>
+
+
+                                                <table class="table table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">SL. NO.</th>
+                                                            <th scope="col">Name Of The Member</th>
+
+                                                            <th scope="col">Designation</th>
+                                                            <th scope="col">Role</th>
+
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>SNEHA ADHIKARI</td>
+                                                            <td>LECTURER, CE</td>
+                                                            <td>PRESIDENT</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>TANMOY BHATTACHARJEE</td>
+                                                            <td>LECTURER, ME</td>
+                                                            <td>CONVENER</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">3</th>
+                                                            <td>DEBMALYA CHAKRABORTY</td>
+                                                            <td>LECTURER, ME </td>
+                                                            <td>SOCIAL MEDIA</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">4</th>
+                                                            <td>PRIYANKA DUTTA/td>
+                                                            <td>SR. LECTURER, EE</td>
+                                                            <td>START UP ACTIVITY COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">5</th>
+                                                            <td>SUPROTIV CHATTERJEE</td>
+                                                            <td>HOD, CE</td>
+                                                            <td>INTERNSHIP ACTIVITY COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">6</th>
+                                                            <td>SAMIUL HASAN</td>
+                                                            <td>LECTURER, CE</td>
+                                                            <td>INNOVATION ACTIVITY</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">7</th>
+                                                            <td>SOUMYA KANTI DUTTA</td>
+                                                            <td>SR. LECTURER, BSH</td>
+                                                            <td>MemberIPR ACTIVITY COORDINATOR</td>
+
+                                                        <tr>
+                                                            <th scope="row">8</th>
+                                                            <td>PINAKI DUTTA</td>
+                                                            <td>LECTURER, ME</td>
+                                                            <td>ARIIA COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">9</th>
+                                                            <td>ARJUN RAY</td>
+                                                            <td>LECTURER, EE</td>
+                                                            <td>NIRF COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">10</th>
+                                                            <td>DR. SHIBNATH MAITY</td>
+                                                            <td>SC.E</td>
+                                                            <td>IP EXPERT</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">11</th>
+                                                            <td>SUMAN MANNA</td>
+                                                            <td>DIRECTOR (SYSBEAN)</td>
+                                                            <td>START UP EXPERT</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">12</th>
+                                                            <td>NISARGA KUNDU</td>
+                                                            <td>PROJECT ENGINEER (MACKINTOSH BURN LTD)</td>
+                                                            <td>INDUSTRY EXPERT</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">13</th>
+                                                            <td>SADDAM ANSARI</td>
+                                                            <td>HOD, ME</td>
+                                                            <td>MEMBER</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">14</th>
+                                                            <td>DR. RANU BANERJEE</td>
+                                                            <td>SR. LECTURER, BSH</td>
+                                                            <td>MEMBER</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">15</th>
+                                                            <td>TAPAS KUMAR BENIA</td>
+                                                            <td>SR. LECTURER, EE</td>
+                                                            <td>MEMBER</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">16</th>
+                                                            <td>RAMENDRANATH HALDER</td>
+                                                            <td>SR. LECTURER, ME</td>
+                                                            <td>MEMBER</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">17</th>
+                                                            <td>LALTU MAHATO</td>
+                                                            <td>SR. LECTURER, BSH</td>
+                                                            <td>MEMBER</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">18</th>
+                                                            <td>ARUP KUMAR BAZARI </td>
+                                                            <td>TA, CE</td>
+                                                            <td>MEMBER</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">19</th>
+                                                            <td>JOY CHATTERJEE</td>
+                                                            <td>TA, BSH</td>
+                                                            <td>MEMBER</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">20</th>
+                                                            <td>SUMON NEOGI</td>
+                                                            <td>TA, BSH</td>
+                                                            <td>MEMBER</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">21</th>
+                                                            <td>TRIDEEP DEY</td>
+                                                            <td>TA, CE</td>
+                                                            <td>MEMBER</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">22</th>
+                                                            <td>ARINDAM KUMBHAKAR</td>
+                                                            <td>TA, CE</td>
+                                                            <td>MEMBER</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">23</th>
+                                                            <td>ABHIJEET GORAIN</td>
+                                                            <td>STUDENT</td>
+                                                            <td>INNOVATION COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">24</th>
+                                                            <td>PUSHPA GORAIN</td>
+                                                            <td>STUDENT</td>
+                                                            <td>INNOVATION COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">25</th>
+                                                            <td>CHANDAN DEY</td>
+                                                            <td>STUDENT</td>
+                                                            <td>INNOVATION COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">26</th>
+                                                            <td>PRINCE KUMAR SINHA</td>
+                                                            <td>STUDENT</td>
+                                                            <td>STARTUP COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">27</th>
+                                                            <td>ADARSH KUMAR</td>
+                                                            <td>STUDENT</td>
+                                                            <td>STARTUP COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">28</th>
+                                                            <td>ANUSREE GHOSH</td>
+                                                            <td>STUDENT</td>
+                                                            <td>STARTUP COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">29</th>
+                                                            <td>RAGHVENDRA MAHARSHI</td>
+                                                            <td>STUDENT</td>
+                                                            <td>INTERNSHIP COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">30</th>
+                                                            <td>GOBINDA CHONGDER</td>
+                                                            <td>STUDENT</td>
+                                                            <td>INTERNSHIP COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">31</th>
+                                                            <td>ARIJIT GHOSH</td>
+                                                            <td>STUDENT</td>
+                                                            <td>INTERNSHIP COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">32</th>
+                                                            <td>SK ARYEN</td>
+                                                            <td>STUDENT</td>
+                                                            <td>IPR COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">33</th>
+                                                            <td>ARPAN DEY</td>
+                                                            <td>STUDENT</td>
+                                                            <td>IPR COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">34</th>
+                                                            <td>APURBA GHOSH</td>
+                                                            <td>STUDENT</td>
+                                                            <td>IPR COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">35</th>
+                                                            <td>SONALI NAYEK</td>
+                                                            <td>STUDENT</td>
+                                                            <td>SOCIAL MEDIA COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">36</th>
+                                                            <td>MD AYAN</td>
+                                                            <td>STUDENT</td>
+                                                            <td>SOCIAL MEDIA COORDINATOR</td>
+                                                        </tr>
+                                                     
+                                                        <tr>
+                                                            <th scope="row">37</th>
+                                                            <td>  ARPAN CHANDRA</td>
+                                                            <td>STUDENT</td>
+                                                            <td>SOCIAL MEDIA COORDINATOR</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">38</th>
+                                                            <td>  SANDIP MONDAL</td>
+                                                            <td>STUDENT</td>
+                                                            <td>MEMBER</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">39</th>
+                                                            <td>  ARUP SAU</td>
+                                                            <td>STUDENT</td>
+                                                            <td>MEMBER</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">40</th>
+                                                            <td> PRATIK KUMAR</td>
+                                                            <td>STUDENT</td>
+                                                            <td>MEMBER</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">41</th>
+                                                            <td>SAYANTANI GHOSH</td>
+                                                            <td>STUDENT</td>
+                                                            <td>MEMBER</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">42</th>
+                                                            <td>MASUD SEKH</td>
+                                                            <td>STUDENT</td>
+                                                            <td>MEMBER</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--ABOUT UNIVERSITY END-->
+         </div>
+        <!--Content Wrap End-->
+
+        <!--FOOTER START-->
+        <footer>
+            <!--EDU2 FOOTER CONTANT WRAP START-->
+            <div class="container">
+              <div class="row">
+                <!--EDU2 FOOTER CONTANT DES START-->
+                <div class="col-md-3">
+                  <div class="widget widget-links">
+                    <h5>RESOURCE</h5>
+                    <ul>
+                      <!-- <li><a href="#">Eligibility Criteria B.Tech</a></li> -->
+                      <!-- <li><a href="#">Eligibility Criteria Diploma</a></li> -->
+                      <li><a href="Fees Structure.html">Course Fees</a></li>
+                      <li><a href="FAQs.html">FAQ</a></li>
+                      <li><a href="https://www.aicte-india.org/" target="_blank">STATE COUNCIL</a></li>
+                      <li><a href="termsandconditions.html" target="_blank">TERMS AND CONDITIONS</a></li>
+                    
+                    </ul>
+                  </div>
+                  <br>
+                 
+                </div>
+                <!--EDU2 FOOTER CONTANT DES END-->
+        
+        
+                  <div class="col-md-3">
+                    <div class="widget widget-links">
+                      <h5>DIPLOMA COURSES</h5>
+                      <ul>
+                        <li><a href="civil.html">Diploma Civil Engineering</a></li>
+                        <li><a href="electrical.html">Diploma Electrical Engineering</a></li>
+                        <li><a href="mechanical.html">Diploma Mechanical Engineering</a></li>
+                    
+                      </ul>
+                    </div>
+                  </div>
+        
+            
+                  <!--EDU2 FOOTER CONTANT DES START-->
+                  <div class="col-md-3">
+                    <div class="widget widget-links">
+                      <h5>OTHER COURSES</h5>
+                      <ul>
+                        <li><a href="https://srims.setgoi.ac.in/" target="_blank">MBBS</a></li>
+                        <li><a href="https://nursing.setgoi.ac.in/" target="_blank">B.sc and GNM Nursing</a></li>
+                        <li><a href="#">Paramedical</a></li>
+                        <li><a href="https://engineering.setgoi.ac.in/" target="_blank">B-Tech</a></li>
+                        <li><a href="https://icampus.setgoi.ac.in/b_pharm.html" target="_blank">B-Pham</a></li>
+                        <li><a href="https://icampus.setgoi.ac.in/rrsa.html" target="_blank">B-Arch</a></li>
+                      
+                        </ul>
+                    </div>
+                  </div>
+                  <!--EDU2 FOOTER CONTANT DES END-->
+                <div class="col-md-3">
+                  <div class="widget widget-contact">
+                    <h5>POSTAL ADDRESS</h5>
+                    <ul>
+                      <li>
+                        Sanaka Educational Trust’s
+                        <br>
+                         Vill & Post : Malandighi
+                         <br> 
+                         P.S. :
+                        Kanksha, Durgapur. Pin : 713212
+                      </li>
+                      <li>Phone : <a href="#">0343-2700085/86</a></li>
+                      <li>Fax : <a href="#">0343-2700082</a></li>
+                      <li>Email : <a href="mailto:info@setgoi.com"> info@setgoi.com</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!--EDU2 FOOTER CONTANT DES END-->
+              </div>
+            </div>
+          </footer>
+        <!--FOOTER END-->
+        <!--COPYRIGHTS START-->
+        <div class="edu2_copyright_wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="edu2_ft_logo_wrap">
+                            <a href="#"><img src="extra-images/SVSD_Logo_White.svg" style="width: 200px;" alt=""/></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="copyright_des">
+                            <span>&copy; All Rights reserved. Powered By
+                                <a href="https://sysbean.com/">SYSBEAN</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--COPYRIGHTS START-->
+    </div>
+    <!--KF KODE WRAPPER WRAP END-->
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+          <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+            </script>
+                        <!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "919083267441", // WhatsApp number
+            call_to_action: "Message us", // Call to action
+            button_color: "#FF6550", // Color of button
+            position: "left", // Position may be 'right' or 'left'
+        };
+        var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+  </script>
+  <!-- /GetButton.io widget -->
+      <!--Bootstrap core JavaScript-->
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+    <!--Bootstrap core JavaScript-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Bx-Slider JavaScript-->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <!--Owl Carousel JavaScript-->
+    <script src="js/owl.carousel.min.js"></script>
+    <!--Pretty Photo JavaScript-->
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <!--Full Calender JavaScript-->
+    <script src="js/moment.min.js"></script>
+    <script src="js/fullcalendar.min.js"></script>
+    <script src="js/jquery.downCount.js"></script>
+    <!--Image Filterable JavaScript-->
+    <script src="js/jquery-filterable.js"></script>
+    <!--Accordian JavaScript-->
+    <script src="js/jquery.accordion.js"></script>
+    <!--Number Count (Waypoints) JavaScript-->
+    <script src="js/waypoints-min.js"></script>
+    <!--v ticker-->
+    <script src="js/jquery.vticker.min.js"></script>
+    <!--select menu-->
+    <script src="js/jquery.selectric.min.js"></script>
+    <!--Side Menu-->
+    <script src="js/jquery.sidr.min.js"></script>
+    <!--Custom JavaScript-->
+    <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>

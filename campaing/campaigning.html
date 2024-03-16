@@ -1,0 +1,1905 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="extra-images/setgoi_logo_32x26.png" rel="icon">
+	<title>SVSD</title>
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Full Calender CSS -->
+	<link href="css/fullcalendar.css" rel="stylesheet">
+	<!-- Owl Carousel CSS -->
+	<link href="css/owl.carousel.css" rel="stylesheet">
+	<!-- Pretty Photo CSS -->
+	<link href="css/prettyPhoto.css" rel="stylesheet">
+	<!-- Bx-Slider StyleSheet CSS -->
+	<link href="css/jquery.bxslider.css" rel="stylesheet"> 
+	<!-- Font Awesome StyleSheet CSS -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="svg/style.css" rel="stylesheet">
+	<!-- Widget CSS -->
+	<link href="css/widget.css" rel="stylesheet">
+	<!-- Typography CSS -->
+	<link href="css/typography.css" rel="stylesheet">
+	<!-- Shortcodes CSS -->
+	<link href="css/shortcodes.css" rel="stylesheet">
+	<!-- Custom Main StyleSheet CSS -->
+	<link href="style.css" rel="stylesheet">
+	<!-- Color CSS -->
+	<link href="css/color.css" rel="stylesheet">
+	<!-- Responsive CSS -->
+	<link href="css/responsive.css" rel="stylesheet">
+	<!-- SELECT MENU -->
+	<link href="css/selectric.css" rel="stylesheet">
+	<!-- SIDE MENU -->
+	<link rel="stylesheet" href="css/jquery.sidr.dark.css">
+	<link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+	<style>
+		.btn-3{
+			background: #264796;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+		}
+		.btn-3:hover{
+			transition: .5s;
+			background: #00bfbf;
+			color: white;
+		}
+
+		.accordion {
+			background-color: #eeeeee00;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    border-bottom: 1px solid #b0c8ff;}
+.accordion p{
+	color: #022576;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px 0px 0px 0px;
+    font-weight: 600;
+	font-size: 15px;
+}
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+	padding: 5px 34px;
+		color: white;
+		width: 100%;
+		font-size: 17px;
+		font-family: "Roboto Slab", serif;
+		background: #264796;;
+		border-radius: 7px;
+		font-weight: 600;
+}
+.accordion:after {
+	content: '\002B';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    background: #264796;
+    padding: 4px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    /* vertical-align: bottom; */
+    text-align: center;
+    font-size: 22px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-bottom:0;
+}
+.other-course{
+	padding: 35px 40px;
+	text-align: center;
+	/* background-image: url(./images/clear-yellow-wall.jpg); */
+	background-color: #d0deff;
+}
+.scroll-text h4{
+  /* text-align: right; */
+
+  /* animation properties */
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(-100%); }
+  to { -moz-transform: translateX(100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(-100%); }
+  to { -webkit-transform: translateX(100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+@media only screen and (max-width: 480px) {
+	.btn-3 {
+    background: #264796;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 13px!important;
+}
+.accordion {
+		font-size: 12px;
+
+	}
+	.accordion:after {
+    content: '\002B';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: -62px;
+    background: #264796;
+    padding: 1px;
+    border-radius: 50%;
+    height: 29px;
+    width: 29px;
+    /* vertical-align: bottom; */
+    text-align: center;
+    font-size: 19px;
+}
+.scroll-text h4 {
+	font-size: 15px;
+}	
+}
+	</style>
+</head>
+
+<body>
+	<!--KF KODE WRAPPER WRAP START-->
+    <div class="kode_wrapper">
+    	<!--HEADER START-->
+    	<header id="header_2">
+    		<!--kode top bar start-->
+    		<!--kode top bar end-->
+        	
+	    	<!--kode navigation start-->
+    		<div class="navigation">
+    			<div class="container">
+					<div class="row">
+						<div class="col-md-9 col-sm-12">
+    						<div class="logo_wrap">
+    							<a href="#"><img src="images/setgoi_logo.png" alt=""></a>
+    						</div>
+    					</div>
+                        <div class="col-md-3 col-sm-12">
+    						<div class="logo_wrap2">
+    							<button class="contact-buttons"><a href="tel:8444030010"><i class="fa fa-phone"></i> Contact Us</a></button>
+    						</div>
+    					</div>
+					</div>
+					</div>
+
+
+    		</div>
+    		<!--kode navigation end-->
+		</header>
+		<!--HEADER END-->
+
+
+		<div class="edu2_main_bn_wrap">
+			<div class="banner">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4" style="padding:0">
+							<div>
+								<img src="images/D.El.Ed admission2.png" alt="" style="max-width: 94%;height:auto;margin-left: -26px;
+								">
+							</div>
+						</div>
+						<div class="col-md-4" style="padding:0">
+							<div class="content">
+							<h2>Swami Vivekananda School of Diploma</h2>
+							<ul>
+								<li style="display: flex;margin-left: -10px;"><div class="white-bg"><img src="images/1.png" alt="" style="width: 80%;"></div><p style="margin-top: 11px;">More Than a Decade Of Excellence In Education</p></li>
+								<li style="display: flex;margin-left: -10px;"><div class="white-bg"><img src="images/2.png" alt="" style="width: 80%;"></div><p style="margin-top: 11px;">Excellent Placement</p></li>
+								<li style="display: flex;margin-left: -10px;"><div class="white-bg"><img src="images/3_copy.png" alt="" style="width: 80%;"></div><p style="    margin-top: 10px;">51 Acres Lush Green College Campus</p></li>
+							</ul>
+						</div>
+						</div>
+						<div class="col-md-4" style="padding:0">
+							<div class="normal">
+								<div class="booking-enquiry">
+									<form action="contactmail.php" method="post" onsubmit="return formSubmitConfirmation()">
+		
+										<input type="text" name="name" id="name" style="border: 1px solid #00000038;height: 50px;" class="form-control required fl-input" onchange="getVals(this, 'name_field');" placeholder="Name*" required>
+										<br><br>
+										 <input type="text" name="phone" id="phone" style="border: 1px solid #00000038;height: 50px;" class="form-control required fl-input" placeholder="Phone*" required>
+										 <br><br>
+										 <input type="email" name="email" id="email" style="border: 1px solid #00000038;height: 50px;" class="form-control required fl-input" onchange="getVals(this, 'email_field');" placeholder="Email Address">
+										 
+										<br><br>
+										<div style="text-align: center;">
+											<input type="submit" value="Submit" class="contact-buttons"><button ></button></input>
+										 </div>
+										  
+										  
+										  
+									</form>
+								  </div>
+								  </div>
+								  <div class="responsive">
+									<div class="booking-enquiry">
+										<h2>Swami Vivekananda School of Diploma</h2>
+										<form action="./contactmail.php" method="post">
+			
+											<input type="text" name="name" id="name" style="border: 1px solid #00000038;height: 50px;" class="form-control required fl-input" onchange="getVals(this, 'name_field');" placeholder="Name*" required>
+											<br><br>
+											 <input type="text" name="phone" id="phone" style="border: 1px solid #00000038;height: 50px;" class="form-control required fl-input" placeholder="Phone*" required>
+											 <br><br>
+											 <input type="email" name="email" id="email" style="border: 1px solid #00000038;height: 50px;" class="form-control required fl-input" onchange="getVals(this, 'email_field');" placeholder="Email Address">
+											 
+											<br><br>
+											<div style="text-align: center;">
+												<input type="submit" value="Submit" class="contact-buttons"><button ></button></input>
+											 </div>
+											  
+											  
+											  
+										</form>
+									  </div>
+								  </div>
+							</div>
+						  
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="kf_content_wrap">
+			<!--COURSE OUTER WRAP START-->
+			<div class="kf_course_outerwrap">
+				<section class="eligibility">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-12">
+							<div class="row">
+								<!--COURSE CATEGORIES WRAP START-->
+								<div class="kf_cur_catg_wrap">
+									<!--COURSE CATEGORIES WRAP HEADING START-->
+									<div class="col-md-12">
+										<div class="kf_edu2_heading2">
+											<h3>Eligibility</h3>
+										</div>
+									</div>
+									<!--COURSE CATEGORIES WRAP HEADING END-->
+                                    <div class="container">
+						              <div class="row">
+										<div class="col-md-4">
+											<div class="kf_cur_catg_des2">
+												<div class="fa"><img src="images/checklist.png" alt="" width="83%"></div>
+												<br>
+												<div class="kf_cur_catg_capstion">
+													<h5>JEXPO</h5>
+													<p style="margin-bottom: 13px;">Candidates seeking diploma degree admission in the Institute through JEXPO examination with valid rank are eligible to apply for admission for polytechnic.<br><br><br><br><br></p>
+												</div>
+											</div>
+										</div>
+										<!--COURSE CATEGORIES DES END-->
+										<div class="col-md-4">
+											<div class="kf_cur_catg_des2">
+												<div class="fa"><img src="images/admission.png" alt="" width="83%"></div>
+												<br>
+												<div class="kf_cur_catg_capstion">
+													<h5>Admission in Diploma first year under the Management Quota</h5>
+													<p>Candidates seeking admission under the management quota should have required marks in secondary examination as per WBSCT & VE & SD (TED) norms.<br><br><br><br></p>
+												</div>
+											</div>
+										</div>
+										<!--COURSE CATEGORIES DES END-->
+										<div class="col-md-4">
+											<div class="kf_cur_catg_des2">
+												<div class="fa"><img src="images/exam.png" alt="" width="83%"></div>
+												<br>
+												<div class="kf_cur_catg_capstion">
+													<h5>Admission in Diploma second year (lateral admission)</h5>
+													<p>Candidates having passed/ appeared in X + 2 board exam need to appear at ‘VOCLET’.<br>Passed 2 years’ ITI at a stretch after Madhyamik/ equivalent examination.
+														There is no upper age limit for VOCLET Examination.
+														
+													</p>
+												</div>
+											</div>
+										</div>
+									  </div>
+									</div>
+								</div>
+								<!--COURSE CATEGORIES WRAP END-->
+							</div>
+						</div>
+					</div>
+
+				</div>
+				</section>
+
+				
+
+			</div>
+			<!--COURSE OUTER WRAP END-->
+						<!-- FACULTY WRAP START-->
+						<section style="background: #faffff;">
+							<div class="container">
+								<div class="row">
+									<!-- HEADING 1 START-->
+									<div class="col-md-12">
+										<div class="kf_edu2_heading2">
+											<h3>Why Choose Swami Vivekananda School Of Diploma ?</h3>
+										</div>
+									</div>
+									<!-- HEADING 1 END-->
+			
+									<!-- FACULTY SLIDER WRAP START-->
+									<div class="edu2_faculty_wrap">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-3">
+												
+														<div class="edu2_cur_wrap">
+															<figure>
+																<img src="extra-images/curriculum.jpg" alt="">
+																
+															</figure>
+															<div class="edu2_cur_des">
+																<!-- <span>$20</span> -->
+																<h5><a href="#">Curriculum</a></h5>
+																<p style="margin-bottom: 20px;">Programs are offered on a co-designed<span id="more">, co-delivered and co-certified model with industry leaders</span></p>
+															
+															</div>
+															
+														</div>
+													
+												</div>
+												<div class="col-md-3">
+												
+														<div class="edu2_cur_wrap">
+															<figure>
+																<img src="extra-images/internship.jpg" alt="">
+																
+															</figure>
+															<div class="edu2_cur_des">
+																<!-- <span>$20</span> -->
+																<h5><a href="#">Guaranteed internships</a></h5>
+																<p> 100% Internship for all departments</p>
+															</div>
+															
+														</div>
+													
+												</div>
+												<div class="col-md-3">
+													
+														<div class="edu2_cur_wrap">
+															<figure>
+																<img src="extra-images/placement.jpg" alt="">
+																
+															</figure>
+															<div class="edu2_cur_des">
+																<!-- <span>$20</span> -->
+																<h5><a href="#">Placement</a></h5>
+																<p style="margin-bottom:22px;">100% Placement assistance for all Btech courses.</p>
+															</div>
+															
+														</div>
+													
+												</div>
+												<div class="col-md-3">
+											
+														<div class="edu2_cur_wrap">
+															<figure>
+																<img src="extra-images/hands_on_study.jpg" alt="">
+																
+															</figure>
+															<div class="edu2_cur_des">
+																<!-- <span>$20</span> -->
+																<h5><a href="#">Hands on studies</a></h5>
+																<p style="margin-bottom:20px;">Industry oriented curriculum designed <span id="more">and certified by leading companies like Bosch, TCS and Samatrix</span></p>
+															</div>
+															
+														</div>
+													
+												</div>
+											</div>
+											<br>
+											<div class="row">
+												<div class="col-md-3">
+													
+														<div class="edu2_cur_wrap">
+															<figure>
+																<img src="extra-images/exposure.jpg" alt="">
+																
+															</figure>
+															<div class="edu2_cur_des">
+																<!-- <span>$20</span> -->
+																<h5><a href="#">Exposure</a></h5>
+																<p style="margin-bottom: 20px;">Exposure to Industry practices<span id="more"> for up to 1 year through internships and collaborative projects</span></p>
+															</div>
+															
+														</div>	
+												</div>
+												<div class="col-md-3">
+													
+														<div class="edu2_cur_wrap">
+															<figure>
+																<img src="extra-images/alumni_record.jpg" alt="">
+																
+															</figure>
+															<div class="edu2_cur_des">
+																<!-- <span>$20</span> -->
+																<h5><a href="#">Excellent alumni record</a></h5>
+																<p style="margin-bottom:32px;"> Excellent internship history <span id="more">opportunity to enter 5university-industry partnerships for real-time projects</span></p>
+															</div>
+															
+														</div>
+													
+												</div>
+												<!-- <div class="col-md-3">
+													
+														<div class="edu2_cur_wrap">
+															<figure>
+																<img src="extra-images/education.jpg" alt="">
+																
+															</figure>
+															<div class="edu2_cur_des">
+																
+																<h5><a href="#">exceptional education</a></h5>
+																<p style="margin-bottom:px;"> More than a decade of excellence in education 
+																</p>
+															</div>
+															
+														</div>
+												
+												</div> -->
+												<!-- <div class="col-md-3">
+													
+														<div class="edu2_cur_wrap">
+															<figure>
+																<img src="extra-images/green_campus.jpg" alt="">
+																
+															</figure>
+															<div class="edu2_cur_des">
+																
+																<h5><a href="#">Lush green campus</a></h5>
+																<p style="margin-bottom:px;">51 acres campus surrounded by lush greenery
+																</p>
+															</div>
+															
+														</div>
+													
+												</div> -->
+											</div>
+										</div>
+										<div class="view-all">
+											<br>
+                                        	<a class="btn-3" href="tel:8444030010.">Interested? Get a free consultation</a>
+                                        </div>
+									</div>
+									
+									<!-- FACULTY SLIDER WRAP END-->
+								</div>
+							</div>
+						</section>
+						<!-- FACULTY WRAP START-->
+									<!--COUNTER SECTION START-->
+			<section class="course-bg">
+				<div class="kf_edu2_heading3" >
+					<h3>3 Yeaes Diploma Courses In</h3>
+				</div>
+				<div class="container">
+                 <div class="row">
+					<div class="col-md-4">
+						<div class="padding">
+							<div class="box3">
+								<h5>Civil engineering</h5>
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-md-4">
+						<div class="padding">
+						<div class="box3">
+							<h5>Mechanical engineering</h5>
+						</div>
+					  </div>
+					</div>
+					<div class="col-md-4">
+						<div class="padding">
+						<div class="box3">
+							<h5>Electrical Engineering</h5>
+						</div>
+					  </div>
+					</div>
+				 </div>
+				<div class="view-all">
+				<br>
+                <a class="btn-3" href="tel:8444030010">Interested? Get a free consultation</a>
+               </div>
+				</div>
+
+			</section>
+			<!--COUNTER SECTION END-->
+						<!--OUR TESTEMONIAL WRAP START-->
+						<section style="background: #1670712e;">
+							<div class="container">
+								<div class="row">
+									<!-- HEADING 2 START-->
+									<div class="col-md-12">
+										<div class="kf_edu2_heading2">
+											<h3>Our Testimonial</h3>
+										</div>
+									</div>
+									<!-- HEADING 2 END-->
+									<!-- TESTEMONIAL SLIDER WRAP START-->
+									<div class="edu2_testemonial_slider_wrap">
+										<div id="owl-demo-9">
+											<div class="item">
+												<!-- TESTEMONIAL SLIDER WRAP START-->
+												<div class="edu_testemonial_wrap">
+													<figure><img src="extra-images/22.jpg" alt=""/></figure>
+													<div class="kode-text">
+														<!-- <i class="fa fa-quote-right" aria-hidden="true"></i> -->
+														<p style="margin-bottom: 135px;">
+															
+											College Life is one of the most remarkable and lovable times of an individual's life.I am beyond blessed to have had the college experience that I had. I look forward to coming back and going back to the college that gave me so much. Thank you for everything.
+										
+										
+														</p>
+														<a href="#">Rahul Nandy
+															<span> - Electrical Engineering  </span></a>
+													</div>
+												</div>
+												<!-- TESTEMONIAL SLIDER WRAP END-->
+											</div>
+											<div class="item">
+												<!-- TESTEMONIAL SLIDER WRAP START-->
+												<div class="edu_testemonial_wrap">
+													<figure><img src="extra-images/23.jpg" alt=""/></figure>
+													<div class="kode-text">
+														<!-- <i class="fa fa-quote-right" aria-hidden="true"></i> -->
+														<p style="margin-bottom: 137px;">
+
+															
+											
+															My overall experience to date has been amazing & the college having amazing infrastructures and workshops. This college has provided me numbers of opportunities to grow & explore my skills.I have always found a positive & healthy environment and the teachers are highly supportive.
+										
+										
+														</p>
+														<a href="#">Md Asfak
+															<span>-  - student of Diploma in Mechanical Engineering  </span></a>
+													</div>
+												</div>
+												<!-- TESTEMONIAL SLIDER WRAP END-->
+											</div>
+											<div class="item">
+												<!-- TESTEMONIAL SLIDER WRAP START-->
+												<div class="edu_testemonial_wrap">
+													<figure><img src="extra-images/24.jpg" alt=""/></figure>
+													<div class="kode-text">
+														<!-- <i class="fa fa-quote-right" aria-hidden="true"></i> -->
+														<p style="margin-bottom: 48px;">
+
+															
+									
+															I think the individuals you were there, have made Swami Vivekananda School of Diploma College exceptional. We had numerous differences in our cultures and religions, yet those differences did not prevent us from forming friends and supporting one another. When we left from the college, the only things we could take with us were the connections and experiences we had made there, along with the now-vibrant Alumni community.
+										
+										
+														</p>
+														<a href="#">Sumana Dey 
+															<span> - Electrical Engineering  </span></a>
+													</div>
+												</div>
+												<!-- TESTEMONIAL SLIDER WRAP END-->
+											</div>
+										</div>
+									</div>
+									<!-- TESTEMONIAL SLIDER WRAP END-->
+								</div>
+							</div>
+						</section>
+						<!--OUR TESTEMONIAL WRAP END-->
+						<section>
+							<div class="container">
+								<div class="row">
+									<!-- HEADING 1 START-->
+									<div class="col-md-12">
+										<div class="kf_edu2_heading2">
+											<h3> WE HAVE INTEGRATED OUR CLASSROOMS WITH THE GLOBAL COMMUNITY & DIVERSE INDUSTRIES</h3>
+										</div>
+									</div>
+									<!-- HEADING 1 END-->
+				
+									<!-- FACULTY SLIDER WRAP START-->
+									<div class="edu2_faculty_wrap">
+										<div id="owl-demo-8" class="owl-carousel owl-theme">
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;">
+														<img src="logo images/01 (3).jpg" alt="" />
+													</figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+				
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/02 (3).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+				
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/03 (4).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+				
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/04 (3).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+				
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/05 (3).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+				
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/06 (3).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+				
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/07 (3).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/08 (3).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											
+											
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/09 (2).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/10 (2).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/11 (2).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/12 (2).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/13 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/14 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/15 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/16 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/17 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/18 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/19 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/20 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/21 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/22 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/23 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/24 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/25 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/26 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/27 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/28 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/29 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/30 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/31 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/32 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/33 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/34 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/35 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/36 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/37 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/38 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/39 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/40 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/41 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/42 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/43 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/44 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/45 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/46 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/47 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/48 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/49 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/50 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/51 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/52 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/53 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/54 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+									
+											<div class="item">
+										
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/59 (1).jpg" alt="" /></figure>
+												</div>
+										
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/60 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/61 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/62 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/63 (1).jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/64.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/65.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/66.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/67.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/68.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/69.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/70.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/71.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/72.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/73.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/74.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/75.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/77.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/78.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/79.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/80.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/81.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/82.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/83.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/84.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/85.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/86.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/87.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/88.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/89.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/91.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/92.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/93.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/94.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/95.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/96.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/100.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/101.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/102.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/103.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/104.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/105.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+											<div class="item">
+												<!-- FACULTY DES START-->
+												<div class="edu2_faculty_des">
+													<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/106.jpg" alt="" /></figure>
+												</div>
+												<!-- FACULTY DES END-->
+											</div>
+										
+										</div>
+									</div>
+									<!-- FACULTY SLIDER WRAP END-->
+								</div>
+							</div>
+						</section>
+						<section style="background: #f6f6f6;">
+							<div class="container">
+								<div class="row">
+									<!-- HEADING 1 START-->
+									<div class="col-md-12">
+										<div class="kf_edu2_heading2">
+											<h3> How we help get hired by the best?</h3>
+										</div>
+									</div>
+									<!-- HEADING 1 END-->
+									<!-- FACULTY SLIDER WRAP START-->
+									<div class="edu2_faculty_wrap">
+									<div class="row">
+										<div class="col-md-4" style="text-align: center;">
+											<div class="help-box">
+												<img src="extra-images/alumni.png" alt="">
+											<h5>Alumni Connect & Networks</h5>
+											</div>
+											
+										</div>
+										<div class="col-md-4" style="text-align: center;">
+											<div class="help-box">
+											<img src="extra-images/goal.png" alt="">
+											<h5> Upskilling Programs</h5>
+										</div>
+										</div>
+										<div class="col-md-4" style="text-align: center;">
+											<div class="help-box">
+											<img src="extra-images/school.png" alt="">
+											<h5> Campus Drives</h5>
+										</div>
+										</div>
+									</div>
+									<div class="row" style="margin-top: 20px;">
+										<div class="col-md-4" style="text-align: center;">
+											<div class="help-box">
+											<img src="extra-images/united (1).png" alt="">
+											<h5> Industry Collaborations</h5>
+										</div>
+										</div>
+										<div class="col-md-4" style="text-align: center;">
+											<div class="help-box">
+											<img src="extra-images/job-interview.png" alt="">
+											<h5>Interview Trainings</h5>
+										</div>
+										</div>
+										<div class="col-md-4" style="text-align: center;">
+											<div class="help-box">
+											<img src="extra-images/flower.png" alt="">
+											<h5>Personality Grooming</h5>
+										</div>
+										</div>
+									</div>
+									</div>
+									<!-- FACULTY SLIDER WRAP END-->
+								</div>
+							</div>
+						</section>
+
+						<section class="kode-gallery-section">
+							<!-- HEADING 2 START-->
+							<div class="col-md-12">
+								<div class="kf_edu2_heading2">
+									<h3>Embark on a dynamic life at SETGOI</h3>
+									<!-- <p>Student gallery of the year past graduated passouts</p> -->
+								</div>
+							</div>
+							<!-- HEADING 2 END-->
+							<!-- EDU2 GALLERY WRAP START-->
+							<div class="edu2_gallery_wrap gallery">
+								<!-- EDU2 GALLERY DES START-->
+								<div class="gallery3">
+				
+									<div class="filterable-item all 2 1 9 col-md-3 col-sm-12 col-xs-12 no_padding">
+										<div class="edu2_gallery_des">
+											<figure>
+												  
+												<img src="event/12.jpg" alt="image1" data-subtext="">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/12.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="filterable-item all 3 2 1 col-md-3 col-sm-4 col-xs-12 no_padding">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/11.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/11.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="filterable-item all 4 2 9 col-md-3 col-sm-4 col-xs-12 no_padding">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/24.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/24.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="filterable-item all 9 8 7 col-md-3 col-sm-4 col-xs-12 no_padding">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/27.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/27.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="filterable-item all 3 2 4 col-md-3 col-sm-4 col-xs-12 no_padding">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/35.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/35.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="filterable-item all 4 5 7 col-md-3 col-sm-4 col-xs-12 no_padding">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/28.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/28.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="filterable-item all 3 5 7 9 col-md-3 col-sm-4 col-xs-12 no_padding">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/G pic 13 (2).png">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="gallery images/G pic 13.png"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="filterable-item all 2 4 6 8 col-md-3 col-sm-4 col-xs-12 no_padding">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/17.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/17.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="filterable-item all 2 4 6 8 col-md-3 col-sm-4 col-xs-12 no_padding">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/19.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/19.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="filterable-item all 2 4 6 8 col-md-3 col-sm-4 col-xs-12 no_padding">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/22.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/22.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="filterable-item all 2 4 6 8 col-md-3 col-sm-4 col-xs-12 no_padding">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/23.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/23.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="filterable-item all 2 4 6 8 col-md-3 col-sm-4 col-xs-12 no_padding">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/10.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/10.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+								</div>
+								<div class="gallery4">
+				
+									<div class="">
+										<div class="edu2_gallery_des">
+											<figure>
+												  
+												<img src="event/12.jpg" alt="image1" data-subtext="">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/12.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/11.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/11.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/24.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/24.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/27.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/27.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/35.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/35.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/28.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/28.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/G pic 13 (2).png">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="gallery images/G pic 13.png"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/17.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/17.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/19.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/19.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/22.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/22.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/23.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/23.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+									<div class="">
+										<div class="edu2_gallery_des">
+											<figure>
+												<img alt="" src="event/10.jpg">
+												<figcaption>
+													<a data-rel="prettyPhoto[gallery2]" href="event/10.jpg"><i class="fa fa-eye"></i></a>
+													<a href="events.html"><i class="fa fa-link"></i></a>
+													<!-- <h5>Lorem Ipsum Proin</h5>
+													<p>Convocation</p> -->
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+								</div>
+								<!-- EDU2 GALLERY WRAP END-->
+							</div>
+						</section>
+						<section style="padding: 26px 0px;
+						background: #f9f9f9;">
+							<div class="container">
+								<div class="kf_edu2_heading2">
+									<h3>Frequently Asked Questions</h3>
+									<!-- <p>Student gallery of the year past graduated passouts</p> -->
+								</div>
+								<div class="faq">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<button class="accordion">What departments in Diploma are available for your child to  take admission?</button>
+<div class="panel">
+  <p>The departments in engineering in which admission are going on are: me, ce, ee</p>
+</div>
+											</div>
+											<div class="col-md-6">
+												<button class="accordion">Where is the college located?</button>
+<div class="panel">
+  <p>The college is located in Durgapur, West Bengal. 
+</p>
+</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6">
+												<button class="accordion">What b.tech entrance exam has to be attempted by the candidate?</button>
+<div class="panel">
+  <p>For B.tech the candidate needs to attempt WBJEE, JEE MAINS. 
+</p>
+</div>
+											</div>
+											<div class="col-md-6">
+												<button class="accordion">How do I take diploma admission 2023 ?</button>
+<div class="panel">
+  <p>To take diploma admission 2023 you can directly call  8444030010. Else you can provide your name and phone number and the admission team is going to contact you.</p>
+</div>
+											</div>
+										</div>
+									</div>
+
+			
+								</div>
+							</div>
+						</section>
+						<section class="other-course">
+							<div class="scroll-text">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12">
+											<h4>OUR OTHER COURSES MBBS/MD/MS | PARAMEDICAL |B.SC & GNM NURSING | B. PHARM | B.ARCH</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="edu2_copyright_wrap">
+							<div class="container">
+								<div class="row">
+
+					
+									<div class="col-md-12">
+										<div class="copyright_des">
+										<ul>
+											<li><h5><a href="tel:8444030010"><i class="fa fa-phone" aria-hidden="true"></i>8444030010</a></h5></li>
+											<li><h5><a href="mailto:help@setgoi.com"><i class="fa fa-envelope" aria-hidden="true"></i>help@setgoi.com</a></h5></li>
+										</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="edu2_ft_topbar_wrap">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-9">
+										<div class="edu2_ft_topbar_des">
+											<h5 style="font-size: 18px;">Learn, Grow,  Become an Engineer, and Land Your Dream Job !</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="edu2_ft_topbar_des">
+											<a href="tel:8444030010" class="apply" style="border-radius: 10px">Apply Now</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+		</div>
+
+		<!--EDU2 FOOTER WRAP START-->
+
+
+
+    </div>
+    <!--KF KODE WRAPPER WRAP END-->
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+		
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.maxHeight) {
+			  panel.style.maxHeight = null;
+			} else {
+			  panel.style.maxHeight = panel.scrollHeight + "px";
+			} 
+		  });
+		}
+	// 	function formSubmitConfirmation() {
+    //   return alert("Your message is succesfully sent");
+    // }
+		</script>
+
+	<!--Bootstrap core JavaScript-->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!--Bx-Slider JavaScript-->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!--Owl Carousel JavaScript-->
+	<script src="js/owl.carousel.min.js"></script>
+	<!--Pretty Photo JavaScript-->
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<!--Full Calender JavaScript-->
+	<script src="js/moment.min.js"></script>
+	<script src="js/fullcalendar.min.js"></script>
+	<script src="js/jquery.downCount.js"></script>
+	<!--Image Filterable JavaScript-->
+	<script src="js/jquery-filterable.js"></script>
+	<!--Accordian JavaScript-->
+	<script src="js/jquery.accordion.js"></script>
+	<!--Number Count (Waypoints) JavaScript-->
+	<script src="js/waypoints-min.js"></script>
+	<!--v ticker-->
+	<script src="js/jquery.vticker.min.js"></script>
+	<!--select menu-->
+	<script src="js/jquery.selectric.min.js"></script>
+	<!--Side Menu-->
+	<script src="js/jquery.sidr.min.js"></script>
+	<!--Custom JavaScript-->
+	<script src="js/custom.js"></script>
+
+    
+</body>
+</html>

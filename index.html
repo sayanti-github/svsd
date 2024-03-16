@@ -1,0 +1,2189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="extra-images/logo_32X26.png" rel="icon">
+	<title>SVSD</title>
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<!-- Full Calender CSS -->
+	<link href="css/fullcalendar.css" rel="stylesheet" />
+	<!-- Owl Carousel CSS -->
+	<link href="css/owl.carousel.css" rel="stylesheet" />
+	<!-- Pretty Photo CSS -->
+	<link href="css/prettyPhoto.css" rel="stylesheet" />
+	<!-- Bx-Slider StyleSheet CSS -->
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<!-- Font Awesome StyleSheet CSS -->
+	<link href="css/font-awesome.min.css" rel="stylesheet" />
+	<link href="svg/style.css" rel="stylesheet" />
+	<!-- Widget CSS -->
+	<link href="css/widget.css" rel="stylesheet" />
+	<!-- Typography CSS -->
+	<link href="css/typography.css" rel="stylesheet" />
+	<!-- Shortcodes CSS -->
+	<link href="css/shortcodes.css" rel="stylesheet" />
+	<!-- Custom Main StyleSheet CSS -->
+	<link href="style.css" rel="stylesheet" />
+	<!-- Color CSS -->
+	<link href="css/color.css" rel="stylesheet" />
+	<!-- Responsive CSS -->
+	<link href="css/responsive.css" rel="stylesheet" />
+	<!-- SELECT MENU -->
+	<link href="css/selectric.css" rel="stylesheet" />
+	<!-- SIDE MENU -->
+	<link rel="stylesheet" href="css/jquery.sidr.dark.css" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-86SF08X1GB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-86SF08X1GB');
+</script>
+</head>
+
+<body>
+	<!--KF KODE WRAPPER WRAP START-->
+	<div class="kode_wrapper">
+		<!-- register Modal -->
+		<div class="modal fade" id="reg-box" tabindex="-1" role="dialog">
+			<div class="modal-dialog">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<div class="modal-content">
+					<!--SIGNIN AS USER START-->
+					<div class="user-box">
+						<h2>Sign up as a User</h2>
+						<!--FORM FIELD START-->
+						<div class="form">
+							<div class="input-container">
+								<input type="text" placeholder="Name" />
+								<i class="fa fa-user"></i>
+							</div>
+							<div class="input-container">
+								<input type="text" placeholder="E-mail" />
+								<i class="fa fa-envelope-o"></i>
+							</div>
+							<div class="input-container">
+								<input type="password" placeholder="Password" />
+								<i class="fa fa-unlock"></i>
+							</div>
+							<div class="input-container">
+								<label>
+									<span class="radio">
+										<input type="checkbox" name="foo" value="1" checked />
+										<span class="radio-value" aria-hidden="true"></span>
+									</span>
+									<span>Remember me</span>
+								</label>
+							</div>
+							<div class="input-container">
+								<button class="btn-style">Sign Up</button>
+							</div>
+						</div>
+						<!--FORM FIELD END-->
+						<!--OPTION START-->
+						<div class="option">
+							<h5>Or Using</h5>
+						</div>
+						<!--OPTION END-->
+						<!--OPTION START-->
+						<div class="social-login">
+							<a href="#" class="google"><i class="fa fa-google-plus"></i>Google Account</a>
+							<a href="#" class="facebook"><i class="fa fa-facebook"></i>Facebook Account</a>
+						</div>
+						<!--OPTION END-->
+					</div>
+					<!--SIGNIN AS USER END-->
+					<div class="user-box-footer">
+						Already have an account? <a href="#">Sign In</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- register Modal end-->
+
+		<!-- SIGNIN MODEL START -->
+		<div class="modal fade" id="signin-box" tabindex="-1" role="dialog">
+			<div class="modal-dialog">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<div class="modal-content">
+					<div class="user-box">
+						<h2>Sign In</h2>
+						<!--FORM FIELD START-->
+						<div class="form">
+							<div class="input-container">
+								<input type="text" placeholder="E-mail" />
+								<i class="fa fa-envelope-o"></i>
+							</div>
+							<div class="input-container">
+								<input type="password" placeholder="Password" />
+								<i class="fa fa-unlock"></i>
+							</div>
+							<div class="input-container">
+								<label>
+									<span class="radio">
+										<input type="checkbox" name="foo" value="1" checked />
+										<span class="radio-value" aria-hidden="true"></span>
+									</span>
+									<span>Remember me</span>
+								</label>
+							</div>
+							<div class="input-container">
+								<button class="btn-style">Sign In</button>
+							</div>
+						</div>
+						<!--FORM FIELD END-->
+						<!--OPTION START-->
+						<div class="option">
+							<h5>Or Using</h5>
+						</div>
+						<!--OPTION END-->
+						<!--OPTION START-->
+						<div class="social-login">
+							<a href="#" class="google"><i class="fa fa-google-plus"></i>Google Account</a>
+							<a href="#" class="facebook"><i class="fa fa-facebook"></i>Facebook Account</a>
+						</div>
+						<!--OPTION END-->
+					</div>
+					<div class="user-box-footer">
+						<p>
+							Don't have an account?<br /><a href="#">Sign up as a User</a>
+						</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- SIGNIN MODEL END -->
+
+		<!-- <div id="sidr">
+			<div class="logo_wrap">
+				<a href="#"><img src="extra-images/logo.png" alt="" /></a>
+			</div>
+			<div class="clearfix clear"></div>
+			Your content -->
+		<!-- <div class="kf-sidebar">
+			KF_SIDEBAR_SEARCH_WRAP START-->
+		<!-- <div class="widget widget-search">
+				<h2>Search Course</h2>
+				<form>
+					<input type="search" placeholder="Keyword..." />
+				</form>
+			</div>  -->
+		<!--KF_SIDEBAR_SEARCH_WRAP END-->
+
+		<!--KF_SIDEBAR_ARCHIVE_WRAP START-->
+		<!-- <div class="widget widget-archive">
+					<h2>Archives</h2>
+					<ul class="sidebar_archive_des">
+						<li>
+							<a href=""><i class="fa fa-angle-right"></i>January 2016</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-angle-right"></i>February 2016</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-angle-right"></i>March 2016</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-angle-right"></i>April 2016</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-angle-right"></i>May 2016</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-angle-right"></i>June 2016</a>
+						</li>
+						<li>
+							<a href=""><i class="fa fa-angle-right"></i>August 2016</a>
+						</li>
+					</ul>
+				</div> -->
+		<!--KF_SIDEBAR_ARCHIVE_WRAP END-->
+
+		<!-- <p class="copy-right-sidr">
+					Design and Developed by KodeForest @ All Rights Reserved by
+					KodeForest
+				</p>
+			</div>
+		</div> -->
+		<!--HEADER START-->
+		<header id="header_2">
+			<!--kode top bar start-->
+			<div class="top_bar_2">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5">
+							<div class="pull-left">
+								<em class="contct_2"><i class="fa fa-phone"></i> <a href="tel:08444030010"
+										style="color: #fff;">Call Us on
+										08444030010</a></em>
+							</div>
+							<div class="pull-left">
+								<em class="contct_2"><i class="fa fa-envelope"></i><a href="mailto:admission@setgoi.com"
+										style="color: #fff;">admission@setgoi.com</a> </em>
+							</div>
+						</div>
+						<div class="col-md-7">
+							<ul class="login_wrap">
+								<!-- <li>
+									<a href="#" data-toggle="modal" data-target="#reg-box"><i
+											class="fa fa-user"></i>Register</a>
+								</li>
+								<li>
+									<a href="#" data-toggle="modal" data-target="#signin-box"><i
+											class="fa fa-sign-in"></i>Sign In</a>
+								</li> -->
+							</ul>
+							<ul class="top_nav">
+								<li><a href="career.html">Apply Now</a></li>
+								<li><a href="events.html">Event</a></li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="contactus -2.html">contact us</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--kode top bar end-->
+
+			<!--kode navigation start-->
+      <div class="kode_navigation">
+				<!-- <div id="mobile-header">
+					<a id="responsive-menu-button" href="#sidr-main"><i class="fa fa-bars"></i></a>
+				</div> -->
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="logo_wrap">
+								<a href="index.html"><img src="extra-images/SVSD_Logo.svg"
+										alt=""  style="max-width: 37%; text-align:right;"/></a>	
+							</div>
+							
+						</div>
+<div class="col-md-6" style="text-align:right;">
+	<div class="logo_wrap">
+  <span><img src="extra-images/istec_logo.png" style="max-width:21%; text-align:left;margin-top: -21px;" alt="">
+    <h6 style=" display: inline-block; text-align:left;margin-top:20px;font-size: 11px;">Indian Society For Technical Education <br>
+     <a href="files/ISTE INSTITUTIONAL MEMBER.pdf" target="_blank">Institutional Membership ID:2937</a> <br><a href="files/ISTE STUDENTS CHAPTER.pdf" target="_blank">ISTE Student Chapter ID:WB15</a></h6>
+ 
+  </span>
+	
+	</div>
+</div>
+						
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div id="mySidepanel" class="sidepanel">
+								<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+								<ul>
+								  <li><a href="index.html">home</a></li>
+								   <li>
+					<a href="#" class="collapsible">About Us <i class="fa fa-caret-down"></i></a>
+					<div class="content">
+					<ul>
+					<li><a href="about.html">About SVSD</a></li>
+					<li><a href="leadership.html">Leadership</a></li>
+					<li>
+					<a href="governing_body.html">Governing Body</a>
+					</li>
+					<li>
+					<a href="affiliation.html"
+					  >Affiliation & Accreditation</a
+					>
+					</li>
+					<li><a href="committee.html">Committees </a></li>
+					<li><a href="#">Mandatory Disclosure </a></li>
+					<!-- <li><a href="#">Rules and Regulations </a></li> -->
+					</ul>
+					</div>
+								
+								  </li>
+
+                  <li>
+                    <a href="#" class="collapsible"
+                      >People
+                      <i class="fa fa-caret-down"></i>
+                    </a>
+                    <div class="content">
+                      <ul>
+                      <li><a href="#">Faculty</a></li>
+                      <li>
+                        <a href="#" class="collapsible"
+                          >Student
+                          <i class="fa fa-caret-down"></i>
+                        </a>
+                        <div class="content">
+                          <ul>
+                            <li><a href="studentcorner.html">Student Corner </a></li>
+                          <li><a href="#">Student of the year </a></li>
+                          <li><a href="#">Rank holders </a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <!-- <li>
+                        <a href="#" class="collapsible"
+                          >Alumni
+                          <i class="fa fa-caret-down"></i>
+                        </a>
+                        <div class="content">
+                          <ul>
+                          <li><a href="#">Overview</a></li>
+                          <li><a href="#">Alumni Notice </a></li>
+                          <li><a href="#">Events </a></li>
+                          </ul>
+                        </div>
+                       
+                        </li> -->
+                        <li><a href="#">Alumni</a></li>
+                      </ul>
+                    </div>
+                   
+                  </li>
+                  
+								  <li>
+									<a href="#" class="collapsible"
+									  >Academics
+									  <i class="fa fa-caret-down"></i>
+									</a>
+									<div class="content">
+									  <ul>
+										<li><a href="civil.html">Civil Engineering</a></li>
+										<li><a href="electrical.html">Electrical Engineering</a></li>
+									
+										<li>
+										  <a href="mechanical.html"
+											>Mechanical Engineering</a
+										  >
+										</li>
+										<!-- <li><a href="faculty.html">Meet Our Faculty</a></li> -->
+										<li><a href="academic calander.html">Academic Calendar</a></li>
+									  </ul>
+									</div>
+								 
+								  </li>
+                  <li>
+                    <a href="#" class="collapsible"
+                      >Admissions
+                      <i class="fa fa-caret-down"></i>
+                    </a>
+                    <div class="content">
+                      <ul>
+                      <li>
+                        <a href="Admission Policy.html" class="collapsible"
+                          >Admission Policy and Eligibility
+                          <!-- <i class="fa fa-caret-down"></i> -->
+                        </a>
+                        <!-- <div class="content">
+                          <ul>
+                          <li><a href="#">Admission process</a></li>
+                          <li><a href="#">Required documents for admission </a></li>
+                        
+                          </ul>
+                        </div> -->
+                       
+                        </li>
+                        <li><a href="files/SVSD Prospectus 2023_Final.pdf" target="_blank">Prospectus </a></li>
+                      <li>
+                        <a href="Courses and Eligibilities.html"
+                        >Courses</a
+                        >
+                      </li>
+                      <li><a href="Fees Structure.html">Fees Structure </a></li>
+                      <li><a href="Scholarships.html">Scholarships </a></li>
+                      <li><a href="FAQs.html">FAQs </a></li>
+                      </ul>
+                    </div>
+                     
+                    </li>
+								  <li>
+									<a href="#" class="collapsible"
+									  >Placements & Internship <i class="fa fa-caret-down"></i
+									></a>
+									<div class="content">
+									  <ul>
+										<li><a href="campus hiring.html">Campus Hiring</a></li>
+										<li><a href="internship.html">Internship</a></li>
+										<li><a href="capacity building.html">Capacity Building</a></li>
+									  </ul>
+									</div>
+								  
+								  </li>
+                  <!-- <li><a href="#" class="collapsible">research & publication <i class="fa fa-caret-down"></i></a>
+                    <div class="content">
+                    <ul>
+                      <li><a href="research_about.html">About</a></li>
+                      <li><a href="editorial_members.html">Editorial members</a></li>
+                      <li><a href="archive.html">Archive</a></li>
+                      <li><a href="research_contact.html">Contact Us</a></li>
+                    </ul>
+                  </div>
+									</li> -->
+                  <li><a href="research_publications.html">research & publication</a></li>
+								  <li>
+									<a href="#" class="collapsible"
+									  >Life@SVSD
+									  <i class="fa fa-caret-down"></i>
+									</a>
+									<div class="content">
+									  <ul>
+										<!-- <li><a href="404.html">Achievements & Stories </a></li> -->
+										<li><a href="events.html">Events </a></li>
+										<li><a href="campus facilities.html">Campus Facilities </a></li>
+										
+										<li><a href="files/codeofconduct.pdf" target="_blank">Code of Conduct </a></li>
+									  </ul>
+									</div>
+								 
+								  </li>
+								  <!-- <li>
+									<a href="#" class="collapsible"
+									  >Student Performance
+									  <i class="fa fa-caret-down"></i>
+									</a>
+									<div class="content">
+									  <ul>
+										<li><a href="#">Student of the year </a></li>
+										<li><a href="#">Overall Results </a></li>
+										<li><a href="#">Rank holders </a></li>
+									  </ul>
+									</div>
+							   
+								  </li> -->
+								  <!-- <li>
+									<a href="#" class="collapsible"
+									  >Alumni
+									  <i class="fa fa-caret-down"></i>
+									</a>
+									<div class="content">
+									  <ul>
+										<li><a href="#">Overview</a></li>
+										<li><a href="#">Alumni Notice </a></li>
+										<li><a href="#">Events </a></li>
+									  </ul>
+									</div>
+								 
+								  </li> -->
+								</ul>
+							  </div>
+							  
+							  <button class="openbtn" onclick="openNav()">☰</button>  
+						   
+							  
+							  <script>
+							  function openNav() {
+								document.getElementById("mySidepanel").style.width = "250px";
+							  }
+							  
+							  function closeNav() {
+								document.getElementById("mySidepanel").style.width = "0";
+							  }
+							  </script>
+							<!--kode nav_2 start-->
+							<div class="nav_2" id="navigation">
+								<ul>
+					
+								</ul>
+							</div>
+							<!--kode nav_2 end-->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--kode navigation end-->
+
+			<!--kode blue navigation start-->
+			<div class="kode_navigation_3">
+				<!-- <div id="mobile-header">
+					<a id="responsive-menu-button-sub" href="#sidr-main"><i class="fa fa-bars"></i></a>
+				</div> -->
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<!--kode nav_2 start-->
+							<div class="nav_3" id="navigation-sub">
+								<ul>
+									<li><a href="index.html">home</a></li>
+
+									<li>
+										<a href="#">About Us
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<ul>
+											<li><a href="about.html">About SVSD</a></li>
+											<li><a href="leadership.html">Leadership</a></li>
+											<li><a href="governing_body.html">Governing Body</a></li>
+											<li><a href="affiliation.html">Affiliation & Accreditation</a></li>
+											<li><a href="committee.html">Committees </a></li>
+											<li><a href="#">Mandatory Disclosure </a></li>
+											<!-- <li><a href="#">Rules and Regulations </a></li> -->
+
+										</ul>
+									</li>
+                  <li>
+										<a href="#">People
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<ul>
+											<li><a href="faculty.html"> Faculty</a></li>
+											<li><a href="#">Student
+												<i class="fa fa-caret-down"></i>
+											</a>
+											<ul>
+                        <li><a href="studentcorner.html">Student Corner </a></li>
+												<li><a href="#">Student of the year </a></li>
+												<!-- <li><a href="#">Overall Results </a></li> -->
+												<li><a href="#">Rank holders </a></li>
+											</ul></li>
+                      <li><a href="#">Alumni</a></li>
+											<!-- <li><a href="#">Alumni
+												<i class="fa fa-caret-down"></i>
+											</a>
+											<ul>
+												<li><a href="#">Overview</a></li>
+												<li><a href="#">Alumni Notice </a></li>
+												<li><a href="#">Events </a></li>
+											</ul></li> -->
+										</ul>
+									</li>
+
+
+									<li>
+										<a href="#">Academics
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<ul>
+											<li><a href="civil.html">Civil Engineering</a></li>
+											<li><a href="electrical.html">Electrical Engineering</a></li>
+											<li><a href="mechanical.html">Mechanical Engineering</a></li>
+											<!-- <li><a href="faculty.html">Meet Our Faculty</a></li> -->
+											<li><a href="academic calander.html">Academic Calendar</a></li>
+										</ul>
+									</li>
+
+									<li>
+										<a href="#">Admissions
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<ul>
+
+											<li><a href="Admission Policy.html">Admission Policy and Eligibility</a></li>
+											<li><a href="files/SVSD Prospectus 2023_Final.pdf" target="_blank">Prospectus </a></li>
+											<li><a href="Courses and Eligibilities.html">Courses</a></li>
+											<li><a href="Fees Structure.html">Fees Structure </a></li>
+											<li><a href="Scholarships.html">Scholarships </a></li>
+											<li><a href="FAQs.html">FAQs </a></li>
+										</ul>
+									</li>
+
+									<li>
+										<a href="#">Placements & Internship<i class="fa fa-caret-down"></i></a>
+										<ul>
+											<li><a href="campus hiring.html">Campus Hiring</a></li>
+											<li><a href="internship.html">Internship</a></li>
+											<li><a href="capacity building.html">Capacity Building</a></li>
+										</ul>
+									</li>
+
+									<!-- <li><a href="#">research & publication <i class="fa fa-caret-down"></i></a>
+                    <ul>
+                      <li><a href="research_about.html">About</a></li>
+                      <li><a href="editorial_members.html">Editorial members</a></li>
+                      <li><a href="archive.html">Archive</a></li>
+                      <li><a href="research_contact.html">Contact Us</a></li>
+                    </ul>
+									</li> -->
+                  <li><a href="research_publications.html">research & publication</a></li>
+									<li>
+										<a href="#">Life@SVSD
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<ul>
+											<!-- <li><a href="404.html">Achievements & Stories </a></li> -->
+											<li><a href="events.html">Events </a></li>
+											<li><a href="campus facilities.html">Campus Facilities </a></li>
+											
+											<li><a href="files/codeofconduct.pdf" target="_blank">Code of Conduct </a></li>
+										</ul>
+									</li>
+
+									<!-- <li>
+										<a href="#">Student Performance
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<ul>
+											<li><a href="#">Student of the year </a></li>
+											<li><a href="#">Overall Results </a></li>
+											<li><a href="#">Rank holders </a></li>
+										</ul>
+									</li>
+
+									<li>
+										<a href="#">Alumni
+											<i class="fa fa-caret-down"></i>
+										</a>
+										<ul>
+											<li><a href="#">Overview</a></li>
+											<li><a href="#">Alumni Notice </a></li>
+											<li><a href="#">Events </a></li>
+										</ul>
+									</li> -->
+								</ul>
+							</div>
+							<!--kode nav_2 end-->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--kode blue navigation end-->
+		</header>
+		<!--HEADER END-->
+
+		<div class="edu2_main_bn_wrap">
+			<div id="owl-demo-main" class="owl-carousel owl-theme">
+				<div class="item">
+					<figure>
+						<img src="extra-images/01.jpg" alt="" />
+						<figcaption>
+							<!-- <span>Welcome To</span> -->
+							<h2>SWAMI VIVEKANANDA SCHOOL OF DIPLOMA</h2>
+							<p>Malandighi,  Durgapur</p>
+							<!-- <a href="about.html" class="btn-1">read more</a> -->
+						</figcaption>
+					</figure>
+				</div>
+				<div class="item">
+					<figure>
+						<a href="files/notice_board/Six Days Online Faculty Development Program.pdf"><img src="images/slider_2.jpg" alt="" /></a>
+						<figcaption>
+							<h2 style="font-size: 37px;"><a target="_blank"  style="color: white;">Future objective of Viksit Bharat</a></h2>
+						
+							<a href="files/notice_board/ViksitBharat2047.pdf" target="_blank" class="btn-1">click here</a>
+							<p></p>
+						</figcaption>
+					</figure>
+				</div>
+				<!-- <div class="item">
+					<figure>
+						<img src="images/slider 5.jpg" alt="" />
+						<figcaption>
+					
+							<h2>JOB FAIR - 2022</h2>
+					<p></p>
+					<p></p>
+						</figcaption>
+					</figure>
+				</div> -->
+				<div class="item">
+					<figure>
+						<a href="files/notice_board/Six Days Online Faculty Development Program.pdf"><img src="images/slider 4.jpg" alt="" /></a>
+						<figcaption>
+							<h2 style="font-size: 37px;"><a href="files/notice_board/Six Days Online Faculty Development Program.pdf" target="_blank"  style="color: white;">Six Days Online Faculty Development Programme</a></h2>
+						
+							<a href="files/notice_board/Six Days Online Faculty Development Program.pdf" target="_blank" class="btn-1">click here</a>
+							<p></p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="item">
+					<figure>
+						<img src="extra-images/banner-1.png" alt="" />
+						<figcaption>
+					
+							<h2>JOB FAIR - 2022</h2>
+					<p></p>
+					<p></p>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="item">
+					<figure>
+						<img src="images/slider 3.jpg" alt="" />
+						<figcaption>
+					
+							<h2>Festin"O"Beats - 2022</h2>
+						
+						<p></p>
+						
+						</figcaption>
+					</figure>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+	<!--Content Wrap End-->
+
+
+	<!-- FACULTY WRAP START-->
+	<section class="why-setgoi">
+		<div class="kf_intro_des_wrap aboutus_page">
+			<div class="container">
+
+				<div class="row">
+					<!-- HEADING 1 START-->
+					<div class="col-md-12">
+						<div class="kf_edu2_heading2">
+							<h3>WHY SVSD</h3>
+						</div>
+					</div>
+					<!-- HEADING 1 END-->
+
+					<div class="why_setgoi text-justify">
+						<!-- INTERO DES START-->
+						<div class="why_setgoi_des" style="width:20%">
+							<div class="why_setgoi_caption">
+								<span><img src="extra-images/25.svg" alt="" /></i></span>
+								<!-- <h6>BOOKS & LIBRARY</h6> -->
+								<p>
+									10+ years of service in the area of Higher Education.
+								</p>
+
+							</div>
+						</div>
+						<!-- INTERO DES END-->
+						<!-- INTERO DES START-->
+						<div class="why_setgoi_des" style="width:20%">
+							<div class="why_setgoi_caption">
+								<span><img src="extra-images/26.svg" alt="" /></span>
+								<p>
+									Integrated campus offerings enable cross-disciplinary interactions among the
+									students.
+								</p>
+							</div>
+						</div>
+						<!-- INTERO DES END-->
+
+						<!-- INTERO DES START-->
+						<div class="why_setgoi_des" style="width:20%">
+							<div class="why_setgoi_caption">
+								<span><img src="extra-images/27.svg" alt="" /></span>
+								<p >
+									Proven record of placements and internships with placement support extended
+									beyond the year of graduation
+								</p>
+							</div>
+						</div>
+						<!-- INTERO DES END-->
+						<div class="why_setgoi_des" style="width:20%">
+							<div class="why_setgoi_caption">
+								<span><img src="extra-images/28.svg" alt="" /></span>
+								<p>
+									Campus location combines a serene study environment with easy access to
+									industries and organizations of eminence.
+								</p>
+							</div>
+						</div>
+						<!-- INTERO DES START-->
+						<!-- <div class="why_setgois_des" style="width:20%">
+							<div class="why_setgoi_caption">
+								<span><img src="extra-images/27.svg" alt="" /></span>
+								<p>
+									Campus location combines a serene study environment with easy access to
+									industries and organizations of eminence.
+								</p>
+							</div>
+						</div> -->
+						
+						<!-- INTERO DES END-->
+						<!-- INTERO DES START-->
+						<div class="why_setgoi_des" style="width:20%">
+							<div class="why_setgoi_caption">
+								<span><img src="extra-images/29.svg" alt="" /></span>
+								<p>
+									Unique programme for Capacity Building of the students.
+								</p>
+							</div>
+						</div>
+						<!-- INTERO DES END-->
+					</div>
+				</div>
+			</div>
+	</section>
+	<!-- FACULTY WRAP START-->
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+
+	<div class="kf_content_wrap">
+		<!--COURSE OUTER WRAP START-->
+		<div class="kf_course_outerwrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="row">
+							<!--COURSE CATEGORIES WRAP START-->
+							<div class="kf_cur_catg_wrap">
+								<!--COURSE CATEGORIES WRAP HEADING START-->
+								<div class="col-md-12">
+									<div class="kf_edu2_heading1">
+										<h3>BASKET OF PROGRAMMES </h3>
+									</div>
+									<p> Swami Vivekananda School of Diploma offers a diverse selection of diploma courses spanning across different disciplines. If you require detailed information on any specific course, including its description, kindly explore the provided options.
+									</p>
+								</div>
+								<!--COURSE CATEGORIES WRAP HEADING END-->
+ 
+							
+							
+
+								<!--COURSE CATEGORIES DES START-->
+								<div class="col-md-6">
+									<div class="kf_cur_catg_des color-2" style="height: 180px ;">
+										<span><i class="icon-group2"></i></span>
+										<div class="kf_cur_catg_capstion">
+											<h5><a href="civil.html"> Diploma in Civil Engineering</a></h5>
+											<p>3 Years full-time course</p>
+										</div>
+									</div>
+								</div>
+								<!--COURSE CATEGORIES DES END-->
+
+							
+
+								<!--COURSE CATEGORIES DES START-->
+								<div class="col-md-6">
+									<div class="kf_cur_catg_des color-4" style="height: 180px ;">
+										<span><i class="icon-chemistry29"></i></span>
+										<div class="kf_cur_catg_capstion">
+											<h5>
+												<a href="electrical.html"> Diploma in Electrical Engineering</a>
+											</h5>
+											<p>3 Years full-time course</p>
+										</div>
+									</div>
+								</div>
+								<!--COURSE CATEGORIES DES END-->
+
+								
+
+								<!--COURSE CATEGORIES DES START-->
+								<div class="col-md-6">
+									<div class="kf_cur_catg_des color-5" style="height: 180px ;">
+										<span><i class="icon-accounting5"></i></span>
+										<div class="kf_cur_catg_capstion">
+											<h5>
+												<a href="mechanical.html"> Diploma in Mechanical Engineering</a>
+											</h5>
+											<p>3 Years full-time course</p>
+										</div>
+									</div>
+								</div>
+								<!--COURSE CATEGORIES DES END-->
+
+							
+
+							
+							</div>
+							<!--COURSE CATEGORIES WRAP END-->
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<!-- EDU2 SEARCH WRAP START -->
+						<div class="kf_edu2_search_wrap">
+							<div class="kf_edu2_heading1">
+								<h3>Notice Board</h3>
+							</div>
+							<!--KF SIDEBAR RECENT POST WRAP START-->
+							<div class="widget widget-recent-posts">
+								<ul class="sidebar_rpost_des">
+							<!--LIST ITEM START-->
+							<!-- <li style="    margin-bottom: 0;"><img src="Image/new.gif" alt="" style="display: inline-block;z-index: 1;position: absolute;"></li>-->
+							<li> 
+								<figure>
+									<img src="Image/new2.gif" alt="" style="display: inline-block;z-index: 1;position: absolute;width: 45px;-ms-transform: rotate(20deg);
+									transform: rotate(-27deg);
+									top: 2px;
+									left: -5px;">
+									<img src="images/notice1.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/1st internal student notice.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								
+								<div class="kode-text">
+									<h6><a href="files/notice_board/1st internal student notice.pdf" target="_blank">Notice regarding 1st internal assessment for 2nd , 4th , and 6th semester students</a></h6>
+									<span><i class="fa fa-clock-o"></i>12 th Feb, 2024</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+									
+									<img src="images/notice1.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/SVS_OP_2023-24_0020.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								
+								<div class="kode-text">
+									<h6><a href="files/notice_board/SVS_OP_2023-24_0020.pdf" target="_blank">Notice regarding regular classes</a></h6>
+									<span><i class="fa fa-clock-o"></i>17 th Jan, 2024</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+									
+									<img src="images/notice1.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/ViksitBharat2047.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								
+								<div class="kode-text">
+									<h6><a href="files/notice_board/ViksitBharat2047.pdf" target="_blank">Future objective of Viksit Bharat</a></h6>
+									<span><i class="fa fa-clock-o"></i>27 th Dec, 2023</span>
+								</div>
+							</li>
+							
+							<li> 
+								<figure>
+									
+									<img src="images/notice1.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/ROUTINE-ODD SEM-JAN 2024.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/ROUTINE-ODD SEM-JAN 2024.pdf" target="_blank">ROUTINE-ODD SEM-JAN 2024 ROUTINE</a></h6>
+									<span><i class="fa fa-clock-o"></i>4 th Dec, 2023</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+									
+									<img src="images/notice1.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/Corrigendum Notification_0962_28.11.2023.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/Corrigendum Notification_0962_28.11.2023.pdf" target="_blank">Odd semester diploma students [New Syllabus] examination date</a></h6>
+									<span><i class="fa fa-clock-o"></i>28 th Nov, 2023</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+									
+									<img src="images/notice1.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/Adobe Scan 28-Nov-2023.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/Notification Regarding- Online Registration of Students in AY 2023-2021.pdf" target="_blank">Notice regarding library card</a></h6>
+									<span><i class="fa fa-clock-o"></i>1st Nov, 2023</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+									
+									<img src="images/notice1.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/Notification Regarding- Online Registration of Students in AY 2023-2021.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/Notification Regarding- Online Registration of Students in AY 2023-2021.pdf" target="_blank">Online Registration notice</a></h6>
+									<span><i class="fa fa-clock-o"></i>1st Nov, 2023</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+								
+									<img src="images/notice1.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/NOV-2023 NOTICE.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/NOV-2023 NOTICE.pdf" target="_blank">Notice for fees clearance</a></h6>
+									<span><i class="fa fa-clock-o"></i>1st Nov, 2023</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+									<img src="images/notice1.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/e704e480-9b2d-4b05-8c4a-2173c997fa3b.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/SVSD 1st_05.10.2023.pdf" target="_blank">Puja vacation notice</a></h6>
+									<span><i class="fa fa-clock-o"></i>18 th Oct, 2023</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+									
+									<img src="images/notice1.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/SVS_OP_2023-24_0001 (1).pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/SVSD 1st_05.10.2023.pdf" target="_blank">Registration notice</a></h6>
+									<span><i class="fa fa-clock-o"></i>16 th Oct, 2023</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+									
+									<img src="images/notice1.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/SVSD 1st_05.10.2023.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/SVSD 1st_05.10.2023.pdf" target="_blank">Needed documents for diploma 1st year (Voclet) students</a></h6>
+									<span><i class="fa fa-clock-o"></i>5 th Oct, 2023</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+									
+									<img src="images/notice1.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/SVSD 2nd_05.10.2023.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/SVSD 2nd_05.10.2023.pdf" target="_blank">Needed documents for diploma 2nd year (Voclet) students</a></h6>
+									<span><i class="fa fa-clock-o"></i>5 th Oct, 2023</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+									<img src="images/notice1.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/holiday_biswakarma.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/holiday_biswakarma.pdf" target="_blank">Holiday on account of Viswakarma Puja</a></h6>
+									<span><i class="fa fa-clock-o"></i>15 th Sept, 2023</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+									<img src="images/notice1.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/SVS_OP_2022-23_0065.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/SVS_OP_2022-23_0065.pdf" target="_blank">Regular classes of diploma 3rd year/5th Semester and 2nd year/3rd Semester students</a></h6>
+									<span><i class="fa fa-clock-o"></i>4 th Aug, 2023</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+									<img src="images/notice2.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/DRAFT ROUTINE_EVEN SEM- JULY 2023.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/DRAFT ROUTINE_EVEN SEM- JULY 2023.pdf" target="_blank">Routine Of External Examinations of Theoretical Subjects for the 2nd Semester</a></h6>
+									<span><i class="fa fa-clock-o"></i>7 th July, 2023</span>
+								</div>
+							</li>
+
+							<li> 
+								<figure>
+
+									<img src="images/notice2.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/28ff76ec-8974-4457-8a52-d51c9db6c1c7.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/28ff76ec-8974-4457-8a52-d51c9db6c1c7.pdf" target="_blank">Guidelines For Fill Up Online Application Form For The Even Sem</a></h6>
+									<span><i class="fa fa-clock-o"></i>6 th July, 2023</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+									<img src="images/notice2.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/External sessional exam schedule for 2ND ,4TH ,6TH Sem -JULY-2023.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/External sessional exam schedule for 2ND ,4TH ,6TH Sem -JULY-2023.pdf" target="_blank">2nd, 4th, 6th semester external examination schedule 2023</a></h6>
+									<span><i class="fa fa-clock-o"></i>30 th June, 2023</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+									<img src="images/notice2.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/EXTERNAL SESSIONAL EXAM NOTICE JULY 2023.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/EXTERNAL SESSIONAL EXAM NOTICE JULY 2023.pdf" target="_blank">Notice for 2nd, 4th and 6th semester external examination for sessional subjects</a></h6>
+									<span><i class="fa fa-clock-o"></i>30 th June, 2023</span>
+								</div>
+							</li>
+							<li> 
+								<figure>
+
+									<img src="images/notice2.png" alt="">
+									<figcaption>
+										<a href="files/notice_board/CORRIGENDUM_EA(TH)_EVEN SEM.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									</figcaption>
+								</figure>
+								<div class="kode-text">
+									<h6><a href="files/notice_board/CORRIGENDUM_EA(TH)_EVEN SEM.pdf" target="_blank">Notice for aforesaid exanrinations</a></h6>
+									<span><i class="fa fa-clock-o"></i>16 th June, 2023</span>
+								</div>
+							</li>         
+							<li> 
+							<figure>
+									           <!-- <img src="Image/new2.gif" alt="" style="display: inline-block;z-index: 1;position: absolute;width: 45px;-ms-transform: rotate(20deg);
+									           transform: rotate(-27deg);
+									           top: 2px;
+									           left: -5px;"> -->
+									           <img src="images/notice2.png" alt="">
+									           <figcaption>
+										           <a href="files/notice_board/1st Internal examination students notice MAY-2023.pdf " target="_blank"><i class="fa fa-search-plus"></i></a>
+									           </figcaption>
+								           </figure>
+								           <div class="kode-text">
+									           <h6><a href="files/notice_board/1st Internal examination students notice MAY-2023.pdf" target="_blank">1st internal assessment of 2nd, 4th and 6th semester students</a></h6>
+									           <span><i class="fa fa-clock-o"></i>18 th May, 2023</span>
+								           </div>
+							           </li>
+										<li> 
+								           <figure>
+									           <img src="images/notice2.png" alt="">
+									           <figcaption>
+										           <a href="files/notice_board/SVS_OP_2022-23_0061.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+									           </figcaption>
+								           </figure>
+								           <div class="kode-text">
+									           <h6><a href="files/notice_board/SVS_OP_2022-23_0061.pdf" target="_blank">Summer vacation notice</a></h6>
+									           <span><i class="fa fa-clock-o"></i>12 th May, 2023</span>
+								           </div>
+							           </li>
+							           		<li> 
+								           <figure>
+									           <img src="images/notice5.jpg" alt="">
+									           <figcaption>
+										           <a href="files/notice_board/1st Internal exam time table 2ND,4TH & 6TH SEM.pdf"         target="_blank"><i class="fa fa-search-plus"></i></a>
+									           </figcaption>
+								           </figure>
+								           <div class="kode-text">
+									           <h6><a href="files/notice_board/1st Internal exam time table 2ND,4TH & 6TH SEM.pdf" target="_blank">1st Internal exam time table for 2nd,4th & 6th Sem</a></h6>
+									           <span><i class="fa fa-clock-o"></i>18 th Apr, 2023</span>
+								           </div>
+							           </li>
+							           <li> 
+								           <figure>
+									           <img src="images/faculty_notice.jpg" alt="">
+									           <figcaption>
+										           <a href="files/notice_board/Six Days Online Faculty Development Program.pdf"            target="_blank"><i class="fa fa-search-plus"></i></a>
+									           </figcaption>
+								           </figure>
+								           <div class="kode-text">
+									           <h6><a href="files/notice_board/Six Days Online Faculty Development Program.pdf" target="_blank">Six Days Online Faculty Development Programme</a></h6>
+									           <span><i class="fa fa-clock-o"></i>18 th Apr, 2023</span>
+								           </div>
+							           </li>
+							           <li>
+								           <figure>
+									           <img src="images/notice4.jpg" alt="">
+									           <figcaption>
+										           <a href="files/notice_board/holiday_notice.pdf"            target="_blank"><i class="fa fa-search-plus"></i></a>
+									           </figcaption>
+								           </figure>
+								           <div class="kode-text">
+									           <h6><a href="files/notice_board/holiday_notice.pdf" target="_blank">Holiday from 18.04.2023 to 21.04.2023 </a></h6>
+									           <span><i class="fa fa-clock-o"></i>17 th Apr, 2023</span>
+								           </div>
+							           </li>
+									   <li>
+										<figure>
+											<img src="images/notice4.jpg" alt="">
+											<figcaption>
+												<a href="files/notice_board/holiday notice _17.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+											</figcaption>
+										</figure>
+										<div class="kode-text">
+											<h6><a href="files/notice_board/holiday notice _17.pdf" target="_blank">Holiday  on 17.04.2023 (Monday) </a></h6>
+											<span><i class="fa fa-clock-o"></i>16 th Apr, 2023</span>
+										</div>
+									</li>
+										<li>
+											<figure>
+												<img src="images/notice4.jpg" alt="">
+												<figcaption>
+													<a href="files/notice_board/_Notice_2nd-4th sem classes start_wef 17-04-23.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+												</figcaption>
+											</figure>
+											<div class="kode-text">
+												<h6><a href="files/notice_board/_Notice_2nd-4th sem classes start_wef 17-04-23.pdf" target="_blank">Notice for 2nd-4th sem classes</a></h6>
+												<span><i class="fa fa-clock-o"></i>11 th Apr, 2023</span>
+											</div>
+										</li>
+							<!--LIST ITEM END-->
+							<!--LIST ITEM START-->
+										<li>
+											<figure>
+												<img src="images/notice4.jpg" alt="">
+												<figcaption>
+													<a href="files/notice_board/Commencement of class and implementation of Syallabus.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+												</figcaption>
+											</figure>
+											<div class="kode-text">
+												<h6><a href="files/notice_board/Commencement of class and implementation of Syallabus.pdf" target="_blank">Notice of Commencement of class and implementation of Syallabus</a></h6>
+												<span><i class="fa fa-clock-o"></i>29 th Mar, 2023</span>
+											</div>
+										</li>
+							<!--LIST ITEM END-->
+						    <!--LIST ITEM START-->
+										<li>
+											<figure>
+												<img src="images/notice4.jpg" alt="">
+												<figcaption>
+													<a href="files/notice_board/EA(TH)_1ST & 3RD SEM (APRIL 2023).pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+												</figcaption>
+											</figure>
+											<div class="kode-text">
+												<h6><a href="files/notice_board/EA(TH)_1ST & 3RD SEM (APRIL 2023).pdf" target="_blank">Notice for  external assessments</a></h6>
+												<span><i class="fa fa-clock-o"></i>22 th Mar, 2023</span>
+											</div>
+										</li>
+										<!--LIST ITEM END-->
+										 <!--LIST ITEM START-->
+										<li>
+											<figure>
+												<img src="images/notice4.jpg" alt="">
+												<figcaption>
+													<a href="files/notice_board/Postponement of 1st & 3rd sem exam.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+												</figcaption>
+											</figure>
+											<div class="kode-text">
+												<h6><a href="files/notice_board/Postponement of 1st & 3rd sem exam.pdf" target="_blank">Postponement of 1st & 3rd sem exam</a></h6>
+												<span><i class="fa fa-clock-o"></i>17 th Mar, 2023</span>
+											</div>
+										</li>
+										<!--LIST ITEM END-->
+						                <!--LIST ITEM START-->
+										<li>
+											<figure>
+												<img src="images/notic3.jpg" alt="">
+												<figcaption>
+													<a href="files/notice_board/Guidelines for the forthcoming odd semester examinations -March 2023.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+												</figcaption>
+											</figure>
+											<div class="kode-text">
+												<h6><a href="files/notice_board/Guidelines for the forthcoming odd semester examinations -March 2023.pdf" target="_blank">Guidelines for the forthcoming odd semester examinations -March 2023</a></h6>
+												<span><i class="fa fa-clock-o"></i>15 th Mar, 2023</span>
+											</div>
+										</li>
+										<!--LIST ITEM END-->
+										<!--LIST ITEM START-->
+										<li>
+											<figure>
+												<img src="images/notice5.jpg" alt="">
+												<figcaption>
+													<a href="files/notice_board/ROUTINE_5TH SEM_NEW SYLLABUS (MARCH 2023).pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+												</figcaption>
+											</figure>
+											<div class="kode-text">
+												<h6><a href="files/notice_board/ROUTINE_5TH SEM_NEW SYLLABUS (MARCH 2023).pdf" target="_blank">Routine Of 5th sem new syllabus (March 2023)</a></h6>
+												<span><i class="fa fa-clock-o"></i>13 th Mar, 2023</span>
+											</div>
+										</li>
+										<!--LIST ITEM END-->
+										<!--LIST ITEM START-->
+										<li>
+											<figure>
+												<img src="images/notice2.png" alt="">
+												<figcaption>
+													<a href="files/notice_board/Student Registration notice.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+												</figcaption>
+											</figure>
+											<div class="kode-text">
+												<h6><a href="files/notice_board/Student Registration notice.pdf" target="_blank">Student Registration notice</a></h6>
+												<span><i class="fa fa-clock-o"></i>16 th Feb, 2023</span>
+											</div>
+										</li>
+										<!--LIST ITEM END-->
+									<!--LIST ITEM START-->
+									<li>
+										<figure>
+											<img src="images/notice1.png" alt="">
+											<figcaption>
+												<a href="files/notice_board/2nd Internal examination students notice,Feb-2023.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+											</figcaption>
+										</figure>
+										<div class="kode-text">
+											<h6><a href="files/notice_board/2nd Internal examination students notice,Feb-2023.pdf" target="_blank">2 nd internal examination notice </a></h6>
+											<span><i class="fa fa-clock-o"></i>10 Feb, 2023</span>
+										</div>
+									</li>
+									<li>
+										<figure>
+											<img src="images/notice1.png" alt="">
+											<figcaption>
+												<a href="files/notice_board/special supplementary exam_3rd & 4th sem.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+											</figcaption>
+										</figure>
+										<div class="kode-text">
+											<h6><a href="files/notice_board/special supplementary exam_3rd & 4th sem.pdf" target="_blank">Diploma 3rd sernester and Diploma 4th semester class Supplementary examination notice</a></h6>
+											<span><i class="fa fa-clock-o"></i>2 Dec, 2022</span>
+										</div>
+									</li>
+									<!--LIST ITEM END-->
+
+										<!--LIST ITEM START-->
+										<li>
+											<figure>
+												<img src="images/notice1.png" alt="">
+												<figcaption>
+													<a href="files/notice_board/routine_special supplementary_3S & 4S.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+												</figcaption>
+											</figure>
+											<div class="kode-text">
+												<h6><a href="files/notice_board/routine_special supplementary_3S & 4S.pdf" target="_blank">Diploma 3rd sernester and Diploma 4th semester class Supplementary examination routine</a></h6>
+												<span><i class="fa fa-clock-o"></i>2 Dec, 2022</span>
+											</div>
+										</li>
+										<!--LIST ITEM END-->
+									<!--LIST ITEM START-->
+									<li>
+										<figure>
+											<img src="images/notice1.png" alt="">
+											<figcaption>
+												<a href="files/notice_board/STUDENT COVID PROTOCOL NOTICE.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+											</figcaption>
+										</figure>
+										<div class="kode-text">
+											<h6><a href="files/notice_board/STUDENT COVID PROTOCOL NOTICE.pdf" target="_blank">Student COVID Protocol notice</a></h6>
+											<span><i class="fa fa-clock-o"></i>4 July, 2022</span>
+										</div>
+									</li>
+									<!--LIST ITEM END-->
+										<!--LIST ITEM START-->
+										<li>
+											<figure>
+												<img src="images/notice1.png" alt="">
+												<figcaption>
+													<a href="files/notice_board/6th sem exam held on 02.07.2022 instead of 14.07.2022.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+												</figcaption>
+											</figure>
+											<div class="kode-text">
+												<h6><a href="files/notice_board/6th sem exam held on 02.07.2022 instead of 14.07.2022.pdf" target="_blank">6th semester examination notice</a></h6>
+												<span><i class="fa fa-clock-o"></i>30 June, 2022</span>
+											</div>
+										</li>
+										<!--LIST ITEM END-->
+											<!--LIST ITEM START-->
+											<li>
+												<figure>
+													<img src="images/notice1.png" alt="">
+													<figcaption>
+														<a href="files/notice_board/Notice - Exam Rescheduling.pdf" target="_blank"><i class="fa fa-search-plus"></i></a>
+													</figcaption>
+												</figure>
+												<div class="kode-text">
+													<h6><a href="files/notice_board/Notice - Exam Rescheduling.pdf" target="_blank">Exam Rescheduling notice</a></h6>
+													<span><i class="fa fa-clock-o"></i>29 June, 2022</span>
+												</div>
+											</li>
+											<!--LIST ITEM END-->
+										
+								</ul>
+							</div>
+							<!--KF SIDEBAR RECENT POST WRAP END-->
+						</div>
+						<!-- EDU2 SEARCH WRAP END -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--COURSE OUTER WRAP END-->
+
+		<!--KF INTRO WRAP START-->
+		<section class="kf_edu2_intro_wrap">
+			<div class="kf_intro_des_wrap">
+				<!-- HEADING 2 START-->
+				<div class="col-md-12">
+					<div class="kf_edu2_heading2">
+						<h3>CAPACITY BUILDING @ STUDENTS</h3>
+					</div>
+				</div>
+				<!-- HEADING 2 END-->
+				<!-- INTERO DES START-->
+				<div class="kf_intro_des">
+					<div class="kf_intro_des_caption">
+						<span><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+						<h6 >
+							Mahindra Pride Classroom Programme
+							</h6>
+						<p>
+							The modular training programme caters to:
+							1) Critical thinking
+							 .......
+							
+						</p>
+						<a href="capacity building.html">view more</a>
+					</div>
+					<figure>
+						<img src="extra-images/intro-1.jpg" alt="" />
+						<figcaption><a href="capacity building.html" target="_blank">View More</a></figcaption>
+					</figure>
+				</div>
+				<!-- INTERO DES END-->
+				<!-- INTERO DES START-->
+				<div class="kf_intro_des">
+					<div class="kf_intro_des_caption">
+						<span><i class="fa fa-cogs" aria-hidden="true"></i></span>
+						<h6 >ISTE<br>Programme</h6>
+						<p>
+						
+							SVSD has established an ISTE (The Indian Society for Technical Education ) programme in the...
+						</p>
+					
+						<a href="capacity building.html">view more</a>
+					</div>
+					<figure>
+						<img src="extra-images/intro-3.jpg" alt="" />
+						<figcaption><a href="capacity building.html" target="_blank">View More</a></figcaption>
+					</figure>
+				</div>
+				<!-- INTERO DES END-->
+
+				<!-- INTERO DES START-->
+				<div class="kf_intro_des">
+					<div class="kf_intro_des_caption">
+						<span><i class="fa fa-book" aria-hidden="true"></i></span>
+						<h6 >NDLI Club Programme</h6>
+						<p>
+							SVSD is registered as a NDLI Club under the National Digital Library of India thus providing....
+						</p>
+						<a href="capacity building.html">view more</a>
+					</div>
+					<figure>
+						<img src="extra-images/intro-2.jpg" alt="" />
+						<figcaption><a href="capacity building.html" target="_blank">View More</a></figcaption>
+					</figure>
+				</div>
+				<!-- INTERO DES END-->
+			</div>
+		</section>
+		<!--KF INTRO WRAP END-->
+
+		<!-- FACULTY WRAP START-->
+		<section>
+			<div class="container">
+				<div class="row">
+					<!-- HEADING 1 START-->
+					<div class="col-md-12">
+						<div class="kf_edu2_heading2">
+							<h3>OUR RECRUITERS</h3>
+
+							<p>We are proud to introduce our dynamic and result driven placement programme that’s designed to launch your professional journey with confidence. We are having industry ties up around the Globe. We have an amazing placement cell & preparing our students industry ready.  
+							</p>
+						</div>
+						
+					</div>
+					<!-- HEADING 1 END-->
+
+					<!-- FACULTY SLIDER WRAP START-->
+					<div class="edu2_faculty_wrap">
+						<div id="owl-demo-8" class="owl-carousel owl-theme">
+						
+
+						
+
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/07 (3).jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/08 (3).jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							
+							
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/09 (2).jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+						
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/16 (1).jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+						
+						
+						
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/36 (1).jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+						
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/75.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/47 (1).jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/49 (1).jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/56 (1).jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/16.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/65.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/12.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/13.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/41 (1).jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/92.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/10.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/17.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/18.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/19.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							
+							
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/100.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/21.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/22.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/23.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/24.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							<div class="item">
+								<!-- FACULTY DES START-->
+								<div class="edu2_faculty_des">
+									<figure style="box-shadow: 6px 4px 10px 0px #0003;"><img src="logo images/26.jpg" alt="" /></figure>
+								</div>
+								<!-- FACULTY DES END-->
+							</div>
+							
+						
+						</div>
+					</div>
+					<!-- FACULTY SLIDER WRAP END-->
+				</div>
+			</div>
+		</section>
+		<!-- FACULTY WRAP START-->
+
+
+		<!--OUR TESTEMONIAL WRAP START-->
+		<section>
+			<div class="container">
+				<div class="row">
+					<!-- HEADING 2 START-->
+					<div class="col-md-12">
+						<div class="kf_edu2_heading2">
+							<h3>STUDENT SPEAKS</h3>
+							<p> Discover firsthand accounts of their transformative journeys, remarkable achievements and the profound impact our institution has had on their lives. Dive into the heartfelt testimonials from our accomplished students, who all are working as industry leaders, contributing to the growth of the economy, in World expenditure. Our esteemed alumni have graciously shared their invaluable experiences and memories of their time at their beloved institution. They are showcasing the enduring legacy and excellence of Swami Vivekananda School of Diploma.
+							</p>
+						</div>
+					</div>
+					<!-- HEADING 2 END-->
+					<!-- TESTEMONIAL SLIDER WRAP START-->
+					<div class="edu2_testemonial_slider_wrap">
+						<div id="owl-demo-9">
+							<div class="item">
+								<!-- TESTEMONIAL SLIDER WRAP START-->
+								<div class="edu_testemonial_wrap text-justify">
+									<figure><img src="extra-images/33.jpg" alt="" /></figure>
+									<div class="kode-text">
+										<p class="text-justify">
+											I once heard that Swami Vivekananda School of Diploma (SVSD) stands for harmony. This statement didn't have much of an impression at the time, but looking back, you have to admit that SVSD was and is a peaceful environment. A significant portion of my life was spent at SVSD College.
+										</p>
+										<a href="#">Suman Dey 
+											<span> - Electrical Engineering  <br></span>
+											<br><br>
+											</a>
+									</div>
+								</div>
+								<!-- TESTEMONIAL SLIDER WRAP END-->
+							</div>
+							<div class="item">
+								<!-- TESTEMONIAL SLIDER WRAP START-->
+								<div class="edu_testemonial_wrap text-justify">
+									<figure><img src="extra-images/32.jpg" alt="" /></figure>
+									<div class="kode-text">
+										<p class="text-justify">
+											I think the individuals you were there, have made Swami Vivekananda School of Diploma College exceptional. We had numerous differences in our cultures and religions, yet those differences did not prevent us from forming friends and supporting one another. When we left from the college, the only things we could take with us were the connections and experiences we had made there, along with the now-vibrant Alumni community.
+										</p>
+										<a href="#">Sumana Dey 
+											<span> - Electrical Engineering  <br></span>
+											<br><br>
+											</a>
+									</div>
+								</div>
+								<!-- TESTEMONIAL SLIDER WRAP END-->
+							</div>
+							<div class="item">
+								<!-- TESTEMONIAL SLIDER WRAP START-->
+								<div class="edu_testemonial_wrap text-justify">
+									<figure><img src="extra-images/31.jpg" alt="" /></figure>
+									<div class="kode-text">
+										<p class="text-justify">
+											College Life is one of the most remarkable and lovable times of an individual's life.I am beyond blessed to have had the college experience that I had. I look forward to coming back and going back to the college that gave me so much. Thank you for everything.
+										</p>
+										<a href="#">Rahul Nandy
+											<span> - Electrical Engineering  <br></span>
+											<br><br>
+											</a>
+									</div>
+								</div>
+								<!-- TESTEMONIAL SLIDER WRAP END-->
+							</div>
+							<div class="item">
+								<!-- TESTEMONIAL SLIDER WRAP START-->
+								<div class="edu_testemonial_wrap text-justify">
+									<figure><img src="extra-images/30.jpg" alt="" /></figure>
+									<div class="kode-text">
+										<p class="text-justify">
+											My overall experience to date has been amazing & the college having amazing infrastructures and workshops. This college has provided me numbers of opportunities to grow & explore my skills.I have always found a positive & healthy environment and the teachers are highly supportive.
+										</p>
+										<a href="#">Md Asfak
+											<span> - student of Diploma in Mechanical Engineering  <br>(2019-2022 batch)</span>
+											</a>
+									</div>
+								</div>
+								<!-- TESTEMONIAL SLIDER WRAP END-->
+							</div>
+
+
+
+
+
+
+
+
+
+						</div>
+					</div>
+					<!-- TESTEMONIAL SLIDER WRAP END-->
+				</div>
+			</div>
+		</section>
+
+		<!--GALLERY SECTION START-->
+		<section class="kode-gallery-section">
+			<!-- HEADING 2 START-->
+			<div class="col-md-12">
+				<div class="kf_edu2_heading2">
+					<h3>CAMPUS VIBES</h3>
+				
+					<p> Sanaka Educational Trust's Group of Institutions, nestled among 51 acres of stunning, lush green land. Here education and festivity go hand in hand. We are committed to create a lively environment that celebrates the love of learning. Our campus comes alive with a variety of events all year long, from sporting competitions to thrilling fests, creating auspicious memories and much more. Join us as we make lifelong memories while fostering a sense of community and adventure as well as education. </p>
+					<!-- <p>Student gallery of the year past graduated passouts</p> -->
+				</div>
+				
+			</div>
+			<!-- HEADING 2 END-->
+			<!-- EDU2 GALLERY WRAP START-->
+			<div class="edu2_gallery_wrap gallery">
+				<!-- EDU2 GALLERY DES START-->
+				<div class="gallery3">
+
+					<div class="filterable-item all 2 1 9 col-md-3 col-sm-4 col-xs-12 no_padding">
+						<div class="edu2_gallery_des">
+							<figure>
+								  
+								<img src="event/12.jpg" alt="image1" data-subtext="" />
+								<figcaption>
+									<a data-rel="prettyPhoto[gallery2]" href="event/12.jpg"><i
+											class="fa fa-eye"></i></a>
+									<a href="events.html"><i class="fa fa-link"></i></a>
+									<!-- <h5>Lorem Ipsum Proin</h5>
+									<p>Convocation</p> -->
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<div class="filterable-item all 3 2 1 col-md-3 col-sm-4 col-xs-12 no_padding">
+						<div class="edu2_gallery_des">
+							<figure>
+								<img alt="" src="event/11.jpg">
+								<figcaption>
+									<a data-rel="prettyPhoto[gallery2]" href="event/11.jpg"><i
+											class="fa fa-eye"></i></a>
+									<a href="events.html"><i class="fa fa-link"></i></a>
+									<!-- <h5>Lorem Ipsum Proin</h5>
+									<p>Convocation</p> -->
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<div class="filterable-item all 4 2 9 col-md-3 col-sm-4 col-xs-12 no_padding">
+						<div class="edu2_gallery_des">
+							<figure>
+								<img alt="" src="event/24.jpg">
+								<figcaption>
+									<a data-rel="prettyPhoto[gallery2]" href="event/24.jpg"><i
+											class="fa fa-eye"></i></a>
+									<a href="events.html"><i class="fa fa-link"></i></a>
+									<!-- <h5>Lorem Ipsum Proin</h5>
+									<p>Convocation</p> -->
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<div class="filterable-item all 9 8 7 col-md-3 col-sm-4 col-xs-12 no_padding">
+						<div class="edu2_gallery_des">
+							<figure>
+								<img alt="" src="event/27.jpg">
+								<figcaption>
+									<a data-rel="prettyPhoto[gallery2]" href="event/27.jpg"><i
+											class="fa fa-eye"></i></a>
+									<a href="events.html"><i class="fa fa-link"></i></a>
+									<!-- <h5>Lorem Ipsum Proin</h5>
+									<p>Convocation</p> -->
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<div class="filterable-item all 3 2 4 col-md-3 col-sm-4 col-xs-12 no_padding">
+						<div class="edu2_gallery_des">
+							<figure>
+								<img alt="" src="event/35.jpg">
+								<figcaption>
+									<a data-rel="prettyPhoto[gallery2]" href="event/35.jpg"><i
+											class="fa fa-eye"></i></a>
+									<a href="events.html"><i class="fa fa-link"></i></a>
+									<!-- <h5>Lorem Ipsum Proin</h5>
+									<p>Convocation</p> -->
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<div class="filterable-item all 4 5 7 col-md-3 col-sm-4 col-xs-12 no_padding">
+						<div class="edu2_gallery_des">
+							<figure>
+								<img alt="" src="event/28.jpg">
+								<figcaption>
+									<a data-rel="prettyPhoto[gallery2]" href="event/28.jpg"><i
+											class="fa fa-eye"></i></a>
+									<a href="events.html"><i class="fa fa-link"></i></a>
+									<!-- <h5>Lorem Ipsum Proin</h5>
+									<p>Convocation</p> -->
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<div class="filterable-item all 3 5 7 9 col-md-3 col-sm-4 col-xs-12 no_padding">
+						<div class="edu2_gallery_des">
+							<figure>
+								<img alt="" src="gallery images/G pic 13.png">
+								<figcaption>
+									<a data-rel="prettyPhoto[gallery2]" href="gallery images/G pic 13.png"><i
+											class="fa fa-eye"></i></a>
+									<a href="events.html"><i class="fa fa-link"></i></a>
+									<!-- <h5>Lorem Ipsum Proin</h5>
+									<p>Convocation</p> -->
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<div class="filterable-item all 2 4 6 8 col-md-3 col-sm-4 col-xs-12 no_padding">
+						<div class="edu2_gallery_des">
+							<figure>
+								<img alt="" src="event/17.jpg">
+								<figcaption>
+									<a data-rel="prettyPhoto[gallery2]" href="event/17.jpg"><i
+											class="fa fa-eye"></i></a>
+									<a href="events.html"><i class="fa fa-link"></i></a>
+									<!-- <h5>Lorem Ipsum Proin</h5>
+									<p>Convocation</p> -->
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<div class="filterable-item all 2 4 6 8 col-md-3 col-sm-4 col-xs-12 no_padding">
+						<div class="edu2_gallery_des">
+							<figure>
+								<img alt="" src="event/19.jpg">
+								<figcaption>
+									<a data-rel="prettyPhoto[gallery2]" href="event/19.jpg"><i
+											class="fa fa-eye"></i></a>
+									<a href="events.html"><i class="fa fa-link"></i></a>
+									<!-- <h5>Lorem Ipsum Proin</h5>
+									<p>Convocation</p> -->
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<div class="filterable-item all 2 4 6 8 col-md-3 col-sm-4 col-xs-12 no_padding">
+						<div class="edu2_gallery_des">
+							<figure>
+								<img alt="" src="event/22.jpg">
+								<figcaption>
+									<a data-rel="prettyPhoto[gallery2]" href="event/22.jpg"><i
+											class="fa fa-eye"></i></a>
+									<a href="events.html"><i class="fa fa-link"></i></a>
+									<!-- <h5>Lorem Ipsum Proin</h5>
+									<p>Convocation</p> -->
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<div class="filterable-item all 2 4 6 8 col-md-3 col-sm-4 col-xs-12 no_padding">
+						<div class="edu2_gallery_des">
+							<figure>
+								<img alt="" src="event/23.jpg">
+								<figcaption>
+									<a data-rel="prettyPhoto[gallery2]" href="event/23.jpg"><i
+											class="fa fa-eye"></i></a>
+									<a href="events.html"><i class="fa fa-link"></i></a>
+									<!-- <h5>Lorem Ipsum Proin</h5>
+									<p>Convocation</p> -->
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<div class="filterable-item all 2 4 6 8 col-md-3 col-sm-4 col-xs-12 no_padding">
+						<div class="edu2_gallery_des">
+							<figure>
+								<img alt="" src="event/10.jpg">
+								<figcaption>
+									<a data-rel="prettyPhoto[gallery2]" href="event/10.jpg"><i
+											class="fa fa-eye"></i></a>
+									<a href="events.html"><i class="fa fa-link"></i></a>
+									<!-- <h5>Lorem Ipsum Proin</h5>
+									<p>Convocation</p> -->
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+
+				<!-- EDU2 GALLERY WRAP END-->
+			</div>
+		</section>
+		<!--GALLERY SECTION END-->
+	</div>
+
+	
+	<!--FOOTER START-->
+   <!--FOOTER START-->
+ <footer>
+	<!--EDU2 FOOTER CONTANT WRAP START-->
+	<div class="container">
+	  <div class="row">
+		<!--EDU2 FOOTER CONTANT DES START-->
+		<div class="col-md-3">
+		  <div class="widget widget-links">
+			<h5>RESOURCE</h5>
+			<ul>
+			  <!-- <li><a href="#">Eligibility Criteria B.Tech</a></li> -->
+			  <!-- <li><a href="#">Eligibility Criteria Diploma</a></li> -->
+			  <li><a href="Fees Structure.html">Course Fees</a></li>
+			  <li><a href="FAQs.html">FAQ</a></li>
+			  <li><a href="https://www.aicte-india.org/" target="_blank">STATE COUNCIL</a></li>
+			  <li><a href="termsandconditions.html" target="_blank">TERMS AND CONDITIONS</a></li>
+			
+			</ul>
+		  </div>
+		  <br>
+		 
+		</div>
+		<!--EDU2 FOOTER CONTANT DES END-->
+
+
+		  <div class="col-md-3">
+			<div class="widget widget-links">
+			  <h5>DIPLOMA COURSES</h5>
+			  <ul>
+				<li><a href="civil.html">Diploma Civil Engineering</a></li>
+				<li><a href="electrical.html">Diploma Electrical Engineering</a></li>
+				<li><a href="mechanical.html">Diploma Mechanical Engineering</a></li>
+			
+			  </ul>
+			</div>
+		  </div>
+
+	
+		  <!--EDU2 FOOTER CONTANT DES START-->
+		  <div class="col-md-3">
+			<div class="widget widget-links">
+			  <h5>OTHER COURSES</h5>
+			  <ul>
+                <li><a href="https://srims.setgoi.ac.in/" target="_blank">MBBS</a></li>
+                <li><a href="https://nursing.setgoi.ac.in/" target="_blank">B.sc and GNM Nursing</a></li>
+                <li><a href="#">Paramedical</a></li>
+                <li><a href="https://engineering.setgoi.ac.in/" target="_blank">B-Tech</a></li>
+                <li><a href="https://icampus.setgoi.ac.in/b_pharm.html" target="_blank">B-Pham</a></li>
+                <li><a href="https://icampus.setgoi.ac.in/rrsa.html" target="_blank">B-Arch</a></li>
+              
+                </ul>
+			</div>
+		  </div>
+		  <!--EDU2 FOOTER CONTANT DES END-->
+		<div class="col-md-3">
+		  <div class="widget widget-contact">
+			<h5>POSTAL ADDRESS</h5>
+			<ul>
+			  <li>
+				Sanaka Educational Trust’s
+				<br>
+				 Vill & Post : Malandighi
+				 <br> 
+				 P.S. :
+				Kanksha, Durgapur. Pin : 713212
+			  </li>
+			  <li>Phone : <a href="#">0343-2700085/86</a></li>
+			  <li>Fax : <a href="#">0343-2700082</a></li>
+			  <li>Email : <a href="mailto:info@setgoi.com"> info@setgoi.com</a></li>
+			</ul>
+		  </div>
+		</div>
+		<!--EDU2 FOOTER CONTANT DES END-->
+	  </div>
+	</div>
+  </footer>
+<!--FOOTER END-->
+	<!--FOOTER END-->
+	<!--COPYRIGHTS START-->
+	<div class="edu2_copyright_wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="edu2_ft_logo_wrap">
+						<a href="#"><img src="extra-images/SVSD_Logo_White.svg" style="width: 200px;" alt=""/></a>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="copyright_des">
+						<span>&copy; All Rights reserved. Powered By
+							<a href="https://sysbean.com/">SYSBEAN</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--COPYRIGHTS START-->
+	</div>    <script>
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+		
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		</script>
+		  <script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+			
+			for (i = 0; i < coll.length; i++) {
+			  coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+				  content.style.display = "none";
+				} else {
+				  content.style.display = "block";
+				}
+			  });
+			}
+			</script>
+			            <!-- GetButton.io widget -->
+<script type="text/javascript">
+	(function () {
+		var options = {
+			whatsapp: "919083267441", // WhatsApp number
+			call_to_action: "Message us", // Call to action
+			button_color: "#FF6550", // Color of button
+			position: "left", // Position may be 'right' or 'left'
+		};
+		var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+		var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+		s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+		var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+	})();
+  </script>
+  <!-- /GetButton.io widget -->
+	  <!--Bootstrap core JavaScript-->
+	  <script src="js/jquery.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	<!--KF KODE WRAPPER WRAP END-->
+	<!--Bootstrap core JavaScript-->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!--Bx-Slider JavaScript-->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!--Owl Carousel JavaScript-->
+	<script src="js/owl.carousel.min.js"></script>
+	<!--Pretty Photo JavaScript-->
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<!--Full Calender JavaScript-->
+	<script src="js/moment.min.js"></script>
+	<script src="js/fullcalendar.min.js"></script>
+	<script src="js/jquery.downCount.js"></script>
+	<!--Image Filterable JavaScript-->
+	<script src="js/jquery-filterable.js"></script>
+	<!--Accordian JavaScript-->
+	<script src="js/jquery.accordion.js"></script>
+	<!--Number Count (Waypoints) JavaScript-->
+	<script src="js/waypoints-min.js"></script>
+	<!--v ticker-->
+	<script src="js/jquery.vticker.min.js"></script>
+	<!--select menu-->
+	<script src="js/jquery.selectric.min.js"></script>
+	<!--Side Menu-->
+	<script src="js/jquery.sidr.min.js"></script>
+	<!--Custom JavaScript-->
+	<script src="js/custom.js"></script>
+</body>
+
+</html>

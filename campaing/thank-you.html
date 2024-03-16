@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="extra-images/setgoi_logo_32x26.png" rel="icon">
+	<title>SVSD</title>
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Full Calender CSS -->
+	<link href="css/fullcalendar.css" rel="stylesheet">
+	<!-- Owl Carousel CSS -->
+	<link href="css/owl.carousel.css" rel="stylesheet">
+	<!-- Pretty Photo CSS -->
+	<link href="css/prettyPhoto.css" rel="stylesheet">
+	<!-- Bx-Slider StyleSheet CSS -->
+	<link href="css/jquery.bxslider.css" rel="stylesheet"> 
+	<!-- Font Awesome StyleSheet CSS -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="svg/style.css" rel="stylesheet">
+	<!-- Widget CSS -->
+	<link href="css/widget.css" rel="stylesheet">
+	<!-- Typography CSS -->
+	<link href="css/typography.css" rel="stylesheet">
+	<!-- Shortcodes CSS -->
+	<link href="css/shortcodes.css" rel="stylesheet">
+	<!-- Custom Main StyleSheet CSS -->
+	<link href="style.css" rel="stylesheet">
+	<!-- Color CSS -->
+	<link href="css/color.css" rel="stylesheet">
+	<!-- Responsive CSS -->
+	<link href="css/responsive.css" rel="stylesheet">
+	<!-- SELECT MENU -->
+	<link href="css/selectric.css" rel="stylesheet">
+	<!-- SIDE MENU -->
+	<link rel="stylesheet" href="css/jquery.sidr.dark.css">
+	<link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+	<style>
+		.btn-3{
+			background: #264796;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+		}
+		.btn-3:hover{
+			transition: .5s;
+			background: #00bfbf;
+			color: white;
+		}
+
+		.accordion {
+			background-color: #eeeeee00;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    border-bottom: 1px solid #b0c8ff;}
+.accordion p{
+	color: #022576;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px 0px 0px 0px;
+    font-weight: 600;
+	font-size: 15px;
+}
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+	content: '\002B';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    background: #264796;
+    padding: 4px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    /* vertical-align: bottom; */
+    text-align: center;
+    font-size: 22px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-bottom:0;
+}
+.thank-you-box .thank-you-content {
+    text-align: center;
+    padding-bottom: 48px;
+    border-top: 4px solid #077e79;
+    background: white;
+    box-shadow: 1px 1px 14px #e6e6e6;
+    padding-top: 20px;
+}
+.thank-you-box .thank-you-content img {
+    width: 12%;
+}
+.thank-you-box .thank-you-content h2 {
+    font-size: 45px;
+}
+.thank-you-box .thank-you-content p {
+    margin-bottom: 20px;
+}
+.thank-you-box .thank-you-content .thankyou-button {
+    margin-top: 20px;
+    color: #087f79;
+    border: 4px solid #087f79;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.thank-you-box .thank-you-content .thankyou-button {
+    margin-top: 20px;
+    color: #087f79;
+    border: 4px solid #087f79;
+    border-radius: 10px;
+    padding: 6px 6px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+@media only screen and (max-width: 480px) {
+	.btn-3 {
+    background: #264796;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 13px!important;
+}
+.accordion {
+		font-size: 12px;
+
+	}
+	.accordion:after {
+    content: '\002B';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: -62px;
+    background: #264796;
+    padding: 1px;
+    border-radius: 50%;
+    height: 29px;
+    width: 29px;
+    /* vertical-align: bottom; */
+    text-align: center;
+    font-size: 19px;
+}	
+.thank-you-box .thank-you-content h2 {
+    font-size: 15px;
+}
+.thank-you-box .thank-you-content {
+padding-left:10px;
+    padding-right: 10px;
+}
+}
+
+
+	</style>
+</head>
+
+<body>
+	<!--KF KODE WRAPPER WRAP START-->
+    <div class="kode_wrapper">
+  <section>
+<div class="container">
+    <div class="thank-you-box">
+        <div class="thank-you-content">
+            <img src="images/checked.gif" alt="">
+            <h2>THANK YOU FOR THE ENQUIRY !</h2>
+            <P>We will contact you shortly.</P>
+            <a href="tel:9083267441" class="thankyou-button"> In Case of Emergency Call Us</a>
+        </div>
+    </div>
+</div>
+  </section>
+    </div>
+    <!--KF KODE WRAPPER WRAP END-->
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+		
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.maxHeight) {
+			  panel.style.maxHeight = null;
+			} else {
+			  panel.style.maxHeight = panel.scrollHeight + "px";
+			} 
+		  });
+		}
+		</script>
+
+	<!--Bootstrap core JavaScript-->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!--Bx-Slider JavaScript-->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!--Owl Carousel JavaScript-->
+	<script src="js/owl.carousel.min.js"></script>
+	<!--Pretty Photo JavaScript-->
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<!--Full Calender JavaScript-->
+	<script src="js/moment.min.js"></script>
+	<script src="js/fullcalendar.min.js"></script>
+	<script src="js/jquery.downCount.js"></script>
+	<!--Image Filterable JavaScript-->
+	<script src="js/jquery-filterable.js"></script>
+	<!--Accordian JavaScript-->
+	<script src="js/jquery.accordion.js"></script>
+	<!--Number Count (Waypoints) JavaScript-->
+	<script src="js/waypoints-min.js"></script>
+	<!--v ticker-->
+	<script src="js/jquery.vticker.min.js"></script>
+	<!--select menu-->
+	<script src="js/jquery.selectric.min.js"></script>
+	<!--Side Menu-->
+	<script src="js/jquery.sidr.min.js"></script>
+	<!--Custom JavaScript-->
+	<script src="js/custom.js"></script>
+
+    
+</body>
+</html>
